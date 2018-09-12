@@ -195,7 +195,7 @@ export interface ButtonProps extends TouchableWithoutFeedbackProps {
   /**
    * Button title
    *
-   * @default 'Welcome to\nReact Native Elements'
+   * @default 'Welcome to\nReact Native Loyal'
    */
   title?: string;
 
