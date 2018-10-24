@@ -3,34 +3,38 @@ import { shallow } from 'enzyme';
 import toJson from 'enzyme-to-json';
 import Icon from '../Icon';
 
-describe('Icon component', () => {
-  it('should render without issues', () => {
-    const component = shallow(<Icon name="wifi" />);
+import list from '../iconList.json';
 
-    expect(component.length).toBe(1);
-    expect(toJson(component)).toMatchSnapshot();
-  });
+describe('Icon Component', () => {
+    it('should render without issues', () => {
+      const component = shallow(<Icon name="icon_add_30px" />);
+  
+      expect(component.length).toBe(1);
+      expect(toJson(component)).toMatchSnapshot();
+    });
 
-  it('should render with icon type', () => {
-    const component = shallow(
-      <Icon
-        name="alert"
-        type="octicon"
-        reverse
-        color="red"
-        iconStyle={{ backgroundColor: 'peru' }}
-      />
-    );
-
-    expect(component.length).toBe(1);
-    expect(toJson(component)).toMatchSnapshot();
-  });
-
-  it('should have onPress event', () => {
-    const onPress = jest.fn();
-    const component = shallow(<Icon onPress={onPress} name="wifi" />);
-    const touchable = component.childAt(0);
-    touchable.simulate('press');
-    expect(onPress).toHaveBeenCalledTimes(1);
-  });
+    it('should have onPress event', () => {
+        const onPress = jest.fn();
+        const component = shallow(<Icon name="icon_add_30px" onPress={onPress} />);
+        const touchable = component.childAt(0);
+        touchable.simulate('press');
+        expect(onPress).toHaveBeenCalledTimes(1);
+    });
+});
+describe('Icons list', () => {
+    list.forEach( item =>{
+        it('should match snapshot when is '+ item.alias, () => {
+            const component = shallow(<Icon name={item.name} />);
+        
+            expect(component.length).toBe(1);
+            expect(toJson(component)).toMatchSnapshot();
+        }); 
+        it('should have onPress event when is '+ item.alias, () => {
+            const onPress = jest.fn();
+            const component = shallow(<Icon name={item.name} onPress={onPress}/>);
+            const touchable = component.childAt(0);
+            touchable.simulate('press');
+            expect(onPress).toHaveBeenCalledTimes(1);
+        });
+    });
 });

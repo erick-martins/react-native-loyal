@@ -1,0 +1,33 @@
+const inputs = {
+  global: {
+    titleFontSize: 14,
+    labelFontSize: 14,
+    labelHeight: 32,
+    labelPadding: 0,
+    //inputContainerPadding: 8,
+
+    errorColor: '',
+    successColor: '',
+    tintColor: '',
+    textColor: '',
+    counterColor: '',
+    lineWidth: 1,
+    activeLineWidth: 2,
+    disabledLineType: '',
+    disabledLineWidth: 0,
+    successIcon: <Icons.CheckAlt />,
+    errorIcon: <Icons.CheckAlt />,
+    requiredChar: '*',
+    containerBorderWidth: 1,
+    containerBorderColor: colors.light.GRAY_2,
+    inputContainerStyle: {},
+  },
+  light: {
+    global: {},
+    error: {},
+    success: {},
+    disabled: {},
+    specific: {},
+  },
+  dark: {},
+};

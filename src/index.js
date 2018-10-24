@@ -8,54 +8,56 @@ import Button from './buttons/Button';
 import Input from './input/Input';
 
 import Icon from './icons/Icon';
-import ListItem from './list/ListItem';
-import SocialIcon from './social/SocialIcon';
-import Overlay from './overlay/Overlay';
+import Icons from './icons/Icons';
 
 // Utilities
 import SearchBar from './searchbar/SearchBar';
-import Badge from './badge/badge';
-import CheckBox from './checkbox/CheckBox';
-import Divider from './divider/Divider';
-import Slider from './slider/Slider';
 import ButtonGroup from './buttons/ButtonGroup';
+import TextField from './textfield/field';
 
 // Productivity
-import Card from './card/Card';
-import Tile from './tile/Tile';
-import Avatar from './avatar/Avatar';
-import Rating from './rating/Rating';
-import Header from './header/Header';
-import PricingCard from './pricing/PricingCard';
 
 // helpers
 import Text from './text/Text';
 import colors from './config/colors';
 import getIconType, { registerCustomIconType } from './helpers/getIconType';
 import normalize from './helpers/normalizeText';
+import {
+  StylingThemes,
+  DefaultColors,
+  DefaultTextStyle,
+  LoyalStyleSheet,
+  TextThemes,
+  TextFieldStyle,
+  ButtonThemes,
+} from './config/LoyalStyle';
+
+// DEMO
+import Demo from './demo/Demo';
 
 export {
-  Badge,
   Button,
   ButtonGroup,
-  Card,
   Input,
-  ListItem,
-  PricingCard,
-  SocialIcon,
   Text,
-  Divider,
-  CheckBox,
   SearchBar,
   Icon,
+  Icons,
   colors,
   getIconType,
   registerCustomIconType,
   normalize,
-  Tile,
-  Slider,
-  Avatar,
-  Rating,
-  Header,
-  Overlay,
+  TextField,
+  //TextAlt,
+
+  // DEMO
+  Demo,
+  // STYLES
+  StylingThemes,
+  DefaultColors,
+  DefaultTextStyle,
+  TextFieldStyle,
+  LoyalStyleSheet,
+  TextThemes,
+  ButtonThemes,
 };

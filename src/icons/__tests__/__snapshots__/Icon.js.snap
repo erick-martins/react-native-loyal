@@ -1,51 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Icon component should render with icon type 1`] = `
-<View>
-  <View
-    style={
-      Array [
-        Object {
-          "margin": 7,
-        },
-        Object {
-          "borderRadius": 28,
-          "height": 52,
-          "width": 52,
-        },
-        false,
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "red",
-          "justifyContent": "center",
-        },
-      ]
-    }
-    underlayColor="red"
-  >
-    <Icon
-      allowFontScaling={false}
-      color="white"
-      name="alert"
-      size={24}
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-          },
-          Object {
-            "backgroundColor": "peru",
-          },
-        ]
-      }
-    />
-  </View>
-</View>
-`;
-
-exports[`Icon component should render without issues 1`] = `
-<View>
-  <View
+exports[`Icon Component should render without issues 1`] = `
+<Component>
+  <Component
     style={
       Array [
         false,
@@ -63,7 +20,7 @@ exports[`Icon component should render without issues 1`] = `
     <Icon
       allowFontScaling={false}
       color="black"
-      name="wifi"
+      name="icon_add_30px"
       size={24}
       style={
         Array [
@@ -74,6 +31,5466 @@ exports[`Icon component should render without issues 1`] = `
         ]
       }
     />
-  </View>
-</View>
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Add 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_add_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Airplane 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_airplane_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Alarm 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_alarm_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Analyse 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_analyse_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Armichair 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_armichair_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is ArrowDown 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_arrow_down_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is ArrowLeft 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_arrow_left_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is ArrowRight 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_arrow_right_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Attach 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_attach_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Baby 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_baby_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Bag 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_bag_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Ball 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_ball_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is BallSoccer 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_ball_soccer_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Ballon 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_ballon_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Barcodes 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_barcodes_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Basket 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_basket_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Beauty 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_beauty_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Bike 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_bike_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Bluetooth 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_bluetooth_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Book 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_book_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Bookmark 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_bookmark_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Browser 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_browser_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Bus 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_bus_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Calendar 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_calendar_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Call 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_call_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Camera 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_camera_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Car 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_car_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Card 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_card_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Cart 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_cart_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Cash 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_cash_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Chart 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_chart_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Chat 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_chat_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Check 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_check"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is CheckAlt 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_check_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Clock 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_clock_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Close 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_close"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is CloseAlt 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_close_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Cloud 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_cloud_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is CloudComputing 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_cloud_computing_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is CloudDown 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_cloud_down_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is CloudUp 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_cloud_up_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Colls 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_colls"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Computer 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_computer_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Conversation 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_conversation_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Convert 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_convert_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Copy 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_copy_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Cruise 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_cruise_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Dev 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_dev_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Dislike 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_dislike_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Down 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_down"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Download 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_download_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Drink 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_drink_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Dryer 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_dryer_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Dvd 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_dvd_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Edit 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_edit_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Equal 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_equal_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is File 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_file_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Filter 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_filter_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Folder 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_folder_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is FolderOpen 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_folder_open_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Fuel 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_fuel_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Funnel 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_funnel_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Game 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_game_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Gift 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_gift_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Headphone 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_headphone_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Helicopter 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_helicopter_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Help 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_help_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Hierarch 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_hierarch_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Home 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_home_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Host 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_host_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Hotel 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_hotel_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Idea 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_idea_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Joke 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_joke_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Label 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_label_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Laptop 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_laptop_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Left 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_left"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Like 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_like_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Link 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_link_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is List 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_list"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is ListAlt 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_list_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Location 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_location_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Lock 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_lock_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Login 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_login_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Logout 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_logout_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Map 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_map_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Mechanic 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_mechanic_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Medal 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_medal_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Megaphone 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_megaphone_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Menu 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_menu"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Message 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_message_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is MessageRead 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_message_read_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Microwave 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_microwave_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is More 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_more"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Motorcycle 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_motorcycle_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Movie 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_movie_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Music 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_music_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Newsletter 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_newsletter_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Notification 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_notification_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is NotificationActive 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_notification_active_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Options 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_options"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is OptionsVertical 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_options_vertical"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Package 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_package_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Pan 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_pan_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Pay 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_pay_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Pen 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_pen_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Phone 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_phone_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Picture 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_picture_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Pin 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_pin_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Placeholder 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_placeholder_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Play 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_play_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Presentation 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_presentation_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Press 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_press_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Profile 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_profile_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Question 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_question_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Rating 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_rating"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Read 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_read_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Reload 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_reload_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Remove 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_remove"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is RemoveAlt 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_remove_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Return 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_return_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Right 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_right"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Rocket 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_rocket_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Ruler 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_ruler_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Sad 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_sad_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Save 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_save_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Search 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_search"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Send 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_send_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Settings 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_settings_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Share 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_share_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Smile 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_smile_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Speek 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_speek_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Star 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_star_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Stats 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_stats_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Sun 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_sun_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Tag 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_tag_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Target 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_target_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Train 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_train_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Translate 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_translate_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Trash 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_trash_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Truck 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_truck_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Tshirt 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_tshirt_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Ufo 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_ufo_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Umbrella 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_umbrella_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Unlock 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_unlock_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Up 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_up"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is UpAlt 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_up_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Updown 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_updown"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Upload 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_upload_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is View 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_view_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Voltage 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_voltage_-1"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is VoltageAlt 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_voltage_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Voucher 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_voucher_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is VoucherAir 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_voucher_air_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Warning 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_warning_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Wifi 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_wifi_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Icons list should match snapshot when is Wishlist 1`] = `
+<Component>
+  <Component
+    style={
+      Array [
+        false,
+        false,
+        false,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    underlayColor="white"
+  >
+    <Icon
+      allowFontScaling={false}
+      color="black"
+      name="icon_wishlist_30px"
+      size={24}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+    />
+  </Component>
+</Component>
 `;

@@ -1,0 +1,4442 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Component should match snapshot when is Flat 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "borderRadius": 10,
+            "borderWidth": 0,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          false,
+          false,
+          Object {},
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#63717a",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            false,
+            false,
+            Object {},
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Flat Featured and disabled 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={true}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "borderRadius": 10,
+            "borderWidth": 0,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          Object {
+            "backgroundColor": "#D1D5D8",
+          },
+          undefined,
+          Object {
+            "backgroundColor": "transparent",
+            "borderColor": "#d2dcde",
+            "borderWidth": 0,
+            "opacity": 1,
+          },
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#63b2db",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            Object {
+              "color": "#F3F4F5",
+            },
+            undefined,
+            Object {
+              "color": "#63b2db",
+              "opacity": 0.5,
+            },
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Flat Featured with icon 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "borderRadius": 10,
+            "borderWidth": 0,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          false,
+          false,
+          Object {},
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Icon
+        color="#63b2db"
+        iconStyle={
+          Object {
+            "marginRight": 5,
+          }
+        }
+        name="icon_cart_30px"
+        raised={false}
+        reverse={false}
+        reverseColor="white"
+        size={24}
+        underlayColor="white"
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#63b2db",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            false,
+            false,
+            Object {},
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Flat Featured with icon and disabled 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={true}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "borderRadius": 10,
+            "borderWidth": 0,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          Object {
+            "backgroundColor": "#D1D5D8",
+          },
+          undefined,
+          Object {
+            "backgroundColor": "transparent",
+            "borderColor": "#d2dcde",
+            "borderWidth": 0,
+            "opacity": 1,
+          },
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Icon
+        color="#63b2db"
+        iconStyle={
+          Object {
+            "marginRight": 5,
+            "opacity": 0.5,
+          }
+        }
+        name="icon_cart_30px"
+        raised={false}
+        reverse={false}
+        reverseColor="white"
+        size={24}
+        underlayColor="white"
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#63b2db",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            Object {
+              "color": "#F3F4F5",
+            },
+            undefined,
+            Object {
+              "color": "#63b2db",
+              "opacity": 0.5,
+            },
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Flat and disabled 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={true}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "borderRadius": 10,
+            "borderWidth": 0,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          Object {
+            "backgroundColor": "#D1D5D8",
+          },
+          undefined,
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#d2dcde",
+          },
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#63717a",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            Object {
+              "color": "#F3F4F5",
+            },
+            undefined,
+            Object {
+              "color": "#63717a",
+              "opacity": 0.5,
+            },
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Flat with icon 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "borderRadius": 10,
+            "borderWidth": 0,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          false,
+          false,
+          Object {},
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Icon
+        color="#63717a"
+        iconStyle={
+          Object {
+            "marginRight": 5,
+          }
+        }
+        name="icon_cart_30px"
+        raised={false}
+        reverse={false}
+        reverseColor="white"
+        size={24}
+        underlayColor="white"
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#63717a",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            false,
+            false,
+            Object {},
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Flat with icon and disabled 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={true}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "borderRadius": 10,
+            "borderWidth": 0,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          Object {
+            "backgroundColor": "#D1D5D8",
+          },
+          undefined,
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#d2dcde",
+          },
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Icon
+        color="#63717a"
+        iconStyle={
+          Object {
+            "marginRight": 5,
+            "opacity": 0.5,
+          }
+        }
+        name="icon_cart_30px"
+        raised={false}
+        reverse={false}
+        reverseColor="white"
+        size={24}
+        underlayColor="white"
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#63717a",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            Object {
+              "color": "#F3F4F5",
+            },
+            undefined,
+            Object {
+              "color": "#63717a",
+              "opacity": 0.5,
+            },
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Just Icon 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#d2dcde",
+            "borderRadius": 5,
+            "borderWidth": 2,
+            "height": 50,
+            "paddingHorizontal": 6,
+            "paddingVertical": 0,
+            "width": 50,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          false,
+          false,
+          Object {},
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Icon
+        color="#63717a"
+        iconStyle={
+          Object {
+            "height": 30,
+            "marginLeft": 27,
+            "marginRight": 5,
+            "marginTop": 5,
+            "width": 30,
+          }
+        }
+        name="icon_cloud_30px"
+        raised={false}
+        reverse={false}
+        reverseColor="white"
+        size={24}
+        underlayColor="white"
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#63717a",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            false,
+            false,
+            Object {},
+          ]
+        }
+      />
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Just Icon Featured 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "#ced242",
+            "borderColor": "transparent",
+            "borderRadius": 5,
+            "borderWidth": 2,
+            "height": 50,
+            "paddingHorizontal": 6,
+            "paddingVertical": 0,
+            "width": 50,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          false,
+          false,
+          Object {},
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Icon
+        color="#141c45"
+        iconStyle={
+          Object {
+            "height": 30,
+            "marginLeft": 27,
+            "marginRight": 5,
+            "marginTop": 5,
+            "width": 30,
+          }
+        }
+        name="icon_cloud_30px"
+        raised={false}
+        reverse={false}
+        reverseColor="white"
+        size={24}
+        underlayColor="white"
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#141c45",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            false,
+            false,
+            Object {},
+          ]
+        }
+      />
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Just Icon Featured 2`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={true}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "#ced242",
+            "borderColor": "transparent",
+            "borderRadius": 5,
+            "borderWidth": 2,
+            "height": 50,
+            "paddingHorizontal": 6,
+            "paddingVertical": 0,
+            "width": 50,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          Object {
+            "backgroundColor": "#D1D5D8",
+          },
+          undefined,
+          Object {
+            "backgroundColor": "#d2dcde",
+            "borderColor": "#d2dcde",
+            "opacity": 1,
+          },
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Icon
+        color="#ffffff"
+        iconStyle={
+          Object {
+            "height": 30,
+            "marginLeft": 27,
+            "marginRight": 5,
+            "marginTop": 5,
+            "opacity": 1,
+            "width": 30,
+          }
+        }
+        name="icon_cloud_30px"
+        opacity={1}
+        raised={false}
+        reverse={false}
+        reverseColor="white"
+        size={24}
+        underlayColor="white"
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#141c45",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            Object {
+              "color": "#F3F4F5",
+            },
+            undefined,
+            Object {
+              "color": "#ffffff",
+              "opacity": 1,
+            },
+          ]
+        }
+      />
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Just Icon and disabled 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={true}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#d2dcde",
+            "borderRadius": 5,
+            "borderWidth": 2,
+            "height": 50,
+            "paddingHorizontal": 6,
+            "paddingVertical": 0,
+            "width": 50,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          Object {
+            "backgroundColor": "#D1D5D8",
+          },
+          undefined,
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#d2dcde",
+          },
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Icon
+        color="#63717a"
+        iconStyle={
+          Object {
+            "height": 30,
+            "marginLeft": 27,
+            "marginRight": 5,
+            "marginTop": 5,
+            "opacity": 0.5,
+            "width": 30,
+          }
+        }
+        name="icon_cloud_30px"
+        raised={false}
+        reverse={false}
+        reverseColor="white"
+        size={24}
+        underlayColor="white"
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#63717a",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            Object {
+              "color": "#F3F4F5",
+            },
+            undefined,
+            Object {
+              "color": "#63717a",
+              "opacity": 0.5,
+            },
+          ]
+        }
+      />
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#d2dcde",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          false,
+          false,
+          Object {},
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#63717a",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            false,
+            false,
+            Object {},
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large Danger 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#ff5758",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          false,
+          false,
+          Object {},
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#ff5758",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            false,
+            false,
+            Object {},
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large Danger and disabled 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={true}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#ff5758",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          Object {
+            "backgroundColor": "#D1D5D8",
+          },
+          undefined,
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#d2dcde",
+          },
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#ff5758",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            Object {
+              "color": "#F3F4F5",
+            },
+            undefined,
+            Object {
+              "color": "#63717a",
+              "opacity": 0.5,
+            },
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large Danger with icon 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#ff5758",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          false,
+          false,
+          Object {},
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Icon
+        color="#ff5758"
+        iconStyle={
+          Object {
+            "marginRight": 5,
+          }
+        }
+        name="icon_cart_30px"
+        raised={false}
+        reverse={false}
+        reverseColor="white"
+        size={24}
+        underlayColor="white"
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#ff5758",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            false,
+            false,
+            Object {},
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large Danger with icon and disabled 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={true}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#ff5758",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          Object {
+            "backgroundColor": "#D1D5D8",
+          },
+          undefined,
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#d2dcde",
+          },
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Icon
+        color="#63717a"
+        iconStyle={
+          Object {
+            "marginRight": 5,
+            "opacity": 0.5,
+          }
+        }
+        name="icon_cart_30px"
+        raised={false}
+        reverse={false}
+        reverseColor="white"
+        size={24}
+        underlayColor="white"
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#ff5758",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            Object {
+              "color": "#F3F4F5",
+            },
+            undefined,
+            Object {
+              "color": "#63717a",
+              "opacity": 0.5,
+            },
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large Featured 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "#ced242",
+            "borderColor": "transparent",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          false,
+          false,
+          Object {},
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#141c45",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            false,
+            false,
+            Object {},
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large Featured 2`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "borderRadius": 10,
+            "borderWidth": 0,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          false,
+          false,
+          Object {},
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#63b2db",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            false,
+            false,
+            Object {},
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large Featured Danger 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "#ff5758",
+            "borderColor": "transparent",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          false,
+          false,
+          Object {},
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#ffffff",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            false,
+            false,
+            Object {},
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large Featured Danger and disabled 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={true}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "#ff5758",
+            "borderColor": "transparent",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          Object {
+            "backgroundColor": "#D1D5D8",
+          },
+          undefined,
+          Object {
+            "backgroundColor": "#d2dcde",
+            "borderColor": "#d2dcde",
+            "opacity": 1,
+          },
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#ffffff",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            Object {
+              "color": "#F3F4F5",
+            },
+            undefined,
+            Object {
+              "color": "#ffffff",
+              "opacity": 1,
+            },
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large Featured Danger with icon 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "#ff5758",
+            "borderColor": "transparent",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          false,
+          false,
+          Object {},
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Icon
+        color="#ffffff"
+        iconStyle={
+          Object {
+            "marginRight": 5,
+          }
+        }
+        name="icon_cart_30px"
+        raised={false}
+        reverse={false}
+        reverseColor="white"
+        size={24}
+        underlayColor="white"
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#ffffff",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            false,
+            false,
+            Object {},
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large Featured Danger with icon and disabled 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={true}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "#ff5758",
+            "borderColor": "transparent",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          Object {
+            "backgroundColor": "#D1D5D8",
+          },
+          undefined,
+          Object {
+            "backgroundColor": "#d2dcde",
+            "borderColor": "#d2dcde",
+            "opacity": 1,
+          },
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Icon
+        color="#ffffff"
+        iconStyle={
+          Object {
+            "marginRight": 5,
+            "opacity": 1,
+          }
+        }
+        name="icon_cart_30px"
+        opacity={1}
+        raised={false}
+        reverse={false}
+        reverseColor="white"
+        size={24}
+        underlayColor="white"
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#ffffff",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            Object {
+              "color": "#F3F4F5",
+            },
+            undefined,
+            Object {
+              "color": "#ffffff",
+              "opacity": 1,
+            },
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large Featured Success 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "#21d48f",
+            "borderColor": "transparent",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          false,
+          false,
+          Object {},
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#ffffff",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            false,
+            false,
+            Object {},
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large Featured Success and disabled 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={true}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "#21d48f",
+            "borderColor": "transparent",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          Object {
+            "backgroundColor": "#D1D5D8",
+          },
+          undefined,
+          Object {
+            "backgroundColor": "#d2dcde",
+            "borderColor": "#d2dcde",
+            "opacity": 1,
+          },
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#ffffff",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            Object {
+              "color": "#F3F4F5",
+            },
+            undefined,
+            Object {
+              "color": "#ffffff",
+              "opacity": 1,
+            },
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large Featured Success with icon 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "#21d48f",
+            "borderColor": "transparent",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          false,
+          false,
+          Object {},
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Icon
+        color="#ffffff"
+        iconStyle={
+          Object {
+            "marginRight": 5,
+          }
+        }
+        name="icon_cart_30px"
+        raised={false}
+        reverse={false}
+        reverseColor="white"
+        size={24}
+        underlayColor="white"
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#ffffff",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            false,
+            false,
+            Object {},
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large Featured Success with icon and disabled 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={true}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "#21d48f",
+            "borderColor": "transparent",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          Object {
+            "backgroundColor": "#D1D5D8",
+          },
+          undefined,
+          Object {
+            "backgroundColor": "#d2dcde",
+            "borderColor": "#d2dcde",
+            "opacity": 1,
+          },
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Icon
+        color="#ffffff"
+        iconStyle={
+          Object {
+            "marginRight": 5,
+            "opacity": 1,
+          }
+        }
+        name="icon_cart_30px"
+        opacity={1}
+        raised={false}
+        reverse={false}
+        reverseColor="white"
+        size={24}
+        underlayColor="white"
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#ffffff",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            Object {
+              "color": "#F3F4F5",
+            },
+            undefined,
+            Object {
+              "color": "#ffffff",
+              "opacity": 1,
+            },
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large Featured Warning 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "#fbc979",
+            "borderColor": "transparent",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          false,
+          false,
+          Object {},
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#ffffff",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            false,
+            false,
+            Object {},
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large Featured Warning and disabled 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={true}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "#fbc979",
+            "borderColor": "transparent",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          Object {
+            "backgroundColor": "#D1D5D8",
+          },
+          undefined,
+          Object {
+            "backgroundColor": "#d2dcde",
+            "borderColor": "#d2dcde",
+            "opacity": 1,
+          },
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#ffffff",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            Object {
+              "color": "#F3F4F5",
+            },
+            undefined,
+            Object {
+              "color": "#ffffff",
+              "opacity": 1,
+            },
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large Featured Warning with icon 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "#fbc979",
+            "borderColor": "transparent",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          false,
+          false,
+          Object {},
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Icon
+        color="#ffffff"
+        iconStyle={
+          Object {
+            "marginRight": 5,
+          }
+        }
+        name="icon_cart_30px"
+        raised={false}
+        reverse={false}
+        reverseColor="white"
+        size={24}
+        underlayColor="white"
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#ffffff",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            false,
+            false,
+            Object {},
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large Featured Warning with icon and disabled 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={true}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "#fbc979",
+            "borderColor": "transparent",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          Object {
+            "backgroundColor": "#D1D5D8",
+          },
+          undefined,
+          Object {
+            "backgroundColor": "#d2dcde",
+            "borderColor": "#d2dcde",
+            "opacity": 1,
+          },
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Icon
+        color="#ffffff"
+        iconStyle={
+          Object {
+            "marginRight": 5,
+            "opacity": 1,
+          }
+        }
+        name="icon_cart_30px"
+        opacity={1}
+        raised={false}
+        reverse={false}
+        reverseColor="white"
+        size={24}
+        underlayColor="white"
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#ffffff",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            Object {
+              "color": "#F3F4F5",
+            },
+            undefined,
+            Object {
+              "color": "#ffffff",
+              "opacity": 1,
+            },
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large Featured and disabled 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={true}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "#ced242",
+            "borderColor": "transparent",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          Object {
+            "backgroundColor": "#D1D5D8",
+          },
+          undefined,
+          Object {
+            "backgroundColor": "#d2dcde",
+            "borderColor": "#d2dcde",
+            "opacity": 1,
+          },
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#141c45",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            Object {
+              "color": "#F3F4F5",
+            },
+            undefined,
+            Object {
+              "color": "#ffffff",
+              "opacity": 1,
+            },
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large Featured with icon 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "#ced242",
+            "borderColor": "transparent",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          false,
+          false,
+          Object {},
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Icon
+        color="#141c45"
+        iconStyle={
+          Object {
+            "marginRight": 5,
+          }
+        }
+        name="icon_cart_30px"
+        raised={false}
+        reverse={false}
+        reverseColor="white"
+        size={24}
+        underlayColor="white"
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#141c45",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            false,
+            false,
+            Object {},
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large Featured with icon and disabled 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={true}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "#ced242",
+            "borderColor": "transparent",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          Object {
+            "backgroundColor": "#D1D5D8",
+          },
+          undefined,
+          Object {
+            "backgroundColor": "#d2dcde",
+            "borderColor": "#d2dcde",
+            "opacity": 1,
+          },
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Icon
+        color="#ffffff"
+        iconStyle={
+          Object {
+            "marginRight": 5,
+            "opacity": 1,
+          }
+        }
+        name="icon_cart_30px"
+        opacity={1}
+        raised={false}
+        reverse={false}
+        reverseColor="white"
+        size={24}
+        underlayColor="white"
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#141c45",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            Object {
+              "color": "#F3F4F5",
+            },
+            undefined,
+            Object {
+              "color": "#ffffff",
+              "opacity": 1,
+            },
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large Success 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#21d48f",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          false,
+          false,
+          Object {},
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#21d48f",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            false,
+            false,
+            Object {},
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large Success and disabled 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={true}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#21d48f",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          Object {
+            "backgroundColor": "#D1D5D8",
+          },
+          undefined,
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#d2dcde",
+          },
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#21d48f",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            Object {
+              "color": "#F3F4F5",
+            },
+            undefined,
+            Object {
+              "color": "#63717a",
+              "opacity": 0.5,
+            },
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large Success with icon 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#21d48f",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          false,
+          false,
+          Object {},
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Icon
+        color="#21d48f"
+        iconStyle={
+          Object {
+            "marginRight": 5,
+          }
+        }
+        name="icon_cart_30px"
+        raised={false}
+        reverse={false}
+        reverseColor="white"
+        size={24}
+        underlayColor="white"
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#21d48f",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            false,
+            false,
+            Object {},
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large Success with icon and disabled 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={true}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#21d48f",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          Object {
+            "backgroundColor": "#D1D5D8",
+          },
+          undefined,
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#d2dcde",
+          },
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Icon
+        color="#63717a"
+        iconStyle={
+          Object {
+            "marginRight": 5,
+            "opacity": 0.5,
+          }
+        }
+        name="icon_cart_30px"
+        raised={false}
+        reverse={false}
+        reverseColor="white"
+        size={24}
+        underlayColor="white"
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#21d48f",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            Object {
+              "color": "#F3F4F5",
+            },
+            undefined,
+            Object {
+              "color": "#63717a",
+              "opacity": 0.5,
+            },
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large Warning 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#fbc979",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          false,
+          false,
+          Object {},
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#fbc979",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            false,
+            false,
+            Object {},
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large Warning and disabled 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={true}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#fbc979",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          Object {
+            "backgroundColor": "#D1D5D8",
+          },
+          undefined,
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#d2dcde",
+          },
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#fbc979",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            Object {
+              "color": "#F3F4F5",
+            },
+            undefined,
+            Object {
+              "color": "#63717a",
+              "opacity": 0.5,
+            },
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large Warning with icon 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#fbc979",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          false,
+          false,
+          Object {},
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Icon
+        color="#fbc979"
+        iconStyle={
+          Object {
+            "marginRight": 5,
+          }
+        }
+        name="icon_cart_30px"
+        raised={false}
+        reverse={false}
+        reverseColor="white"
+        size={24}
+        underlayColor="white"
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#fbc979",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            false,
+            false,
+            Object {},
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large Warning with icon and disabled 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={true}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#fbc979",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          Object {
+            "backgroundColor": "#D1D5D8",
+          },
+          undefined,
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#d2dcde",
+          },
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Icon
+        color="#63717a"
+        iconStyle={
+          Object {
+            "marginRight": 5,
+            "opacity": 0.5,
+          }
+        }
+        name="icon_cart_30px"
+        raised={false}
+        reverse={false}
+        reverseColor="white"
+        size={24}
+        underlayColor="white"
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#fbc979",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            Object {
+              "color": "#F3F4F5",
+            },
+            undefined,
+            Object {
+              "color": "#63717a",
+              "opacity": 0.5,
+            },
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large and disabled 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={true}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#d2dcde",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          Object {
+            "backgroundColor": "#D1D5D8",
+          },
+          undefined,
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#d2dcde",
+          },
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#63717a",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            Object {
+              "color": "#F3F4F5",
+            },
+            undefined,
+            Object {
+              "color": "#63717a",
+              "opacity": 0.5,
+            },
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large with icon 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#d2dcde",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          false,
+          false,
+          Object {},
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Icon
+        color="#63717a"
+        iconStyle={
+          Object {
+            "marginRight": 5,
+          }
+        }
+        name="icon_cart_30px"
+        raised={false}
+        reverse={false}
+        reverseColor="white"
+        size={24}
+        underlayColor="white"
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#63717a",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            false,
+            false,
+            Object {},
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Large with icon and disabled 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={true}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#d2dcde",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          Object {
+            "backgroundColor": "#D1D5D8",
+          },
+          undefined,
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#d2dcde",
+          },
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Icon
+        color="#63717a"
+        iconStyle={
+          Object {
+            "marginRight": 5,
+            "opacity": 0.5,
+          }
+        }
+        name="icon_cart_30px"
+        raised={false}
+        reverse={false}
+        reverseColor="white"
+        size={24}
+        underlayColor="white"
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#63717a",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            Object {
+              "color": "#F3F4F5",
+            },
+            undefined,
+            Object {
+              "color": "#63717a",
+              "opacity": 0.5,
+            },
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Small 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#d2dcde",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 50,
+            "paddingHorizontal": 26,
+            "paddingVertical": 6,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          false,
+          false,
+          Object {},
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#63717a",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            false,
+            false,
+            Object {},
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Small Featured 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "#ced242",
+            "borderColor": "transparent",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 50,
+            "paddingHorizontal": 26,
+            "paddingVertical": 6,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          false,
+          false,
+          Object {},
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#141c45",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            false,
+            false,
+            Object {},
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Small Featured and disabled 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={true}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "#ced242",
+            "borderColor": "transparent",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 50,
+            "paddingHorizontal": 26,
+            "paddingVertical": 6,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          Object {
+            "backgroundColor": "#D1D5D8",
+          },
+          undefined,
+          Object {
+            "backgroundColor": "#d2dcde",
+            "borderColor": "#d2dcde",
+            "opacity": 1,
+          },
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#141c45",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            Object {
+              "color": "#F3F4F5",
+            },
+            undefined,
+            Object {
+              "color": "#ffffff",
+              "opacity": 1,
+            },
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should match snapshot when is Small and disabled 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={true}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#d2dcde",
+            "borderRadius": 45,
+            "borderWidth": 2,
+            "height": 50,
+            "paddingHorizontal": 26,
+            "paddingVertical": 6,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          Object {
+            "backgroundColor": "#D1D5D8",
+          },
+          undefined,
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#d2dcde",
+          },
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#63717a",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            Object {
+              "color": "#F3F4F5",
+            },
+            undefined,
+            Object {
+              "color": "#63717a",
+              "opacity": 0.5,
+            },
+          ]
+        }
+      >
+        BUTTON
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;
+
+exports[`Button Component should render without issues 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {},
+      false,
+    ]
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2089dc",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#d2dcde",
+            "borderRadius": 10,
+            "borderWidth": 2,
+            "height": 70,
+            "paddingHorizontal": 26,
+            "paddingVertical": 16,
+          },
+          Object {
+            "borderRadius": 5,
+          },
+          false,
+          false,
+          Object {},
+          false,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "white",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#63717a",
+              "fontFamily": "Circular",
+              "fontSize": 15,
+              "fontWeight": "900",
+            },
+            undefined,
+            false,
+            false,
+            Object {},
+          ]
+        }
+      >
+        BUTTON TEST
+      </Text>
+    </Component>
+  </TouchableOpacity>
+</Component>
+`;

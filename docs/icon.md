@@ -1,6 +1,9 @@
-# Icons
+---
+id: icon
+title: Icon
+---
 
-![Icon](/react-native-loyal/img/icons.png)
+![Icon](/react-native-elements/img/icons.png)
 
 Icons take the name of a [material icon](https://design.google.com/icons/) as a prop. Use the [icon directory](https://oblador.github.io/react-native-vector-icons/) to search for icons
 
@@ -49,20 +52,148 @@ import { Icon } from 'react-native-elements'
 
 ### Props
 
+* [`color`](#color)
+* [`containerStyle`](#containerstyle)
+* [`component`](#component)
+* [`onPress`](#onpress)
+* [`iconStyle`](#iconstyle)
+* [`name`](#name)
+* [`onLongPress`](#onlongpress)
+* [`raised`](#raised)
+* [`reverse`](#reverse)
+* [`reverseColor`](#reversecolor)
+* [`size`](#size)
+* [`type`](#type)
+* [`underlayColor`](#underlaycolor)
 
-|  Property  |  Type  | Default | Options | Required | Description |
-|   :----:   | :----: | :-----: | :-----: | :-----: | :-----: |
-|    name    | string |  none   |  | ✓  |
-|    type    | string |  material | `material-community, zocial, font-awesome, octicon, ionicon, foundation, evilicon, simple-line-icon, feather or entypo` | ✕ |
-|    size    | number |  26 |  | ✕ |
-|    color    | string |  black |  `rgb(), rgba(), #hex`  | ✕ | Color of icon |
-|    underlayColor    | string |  icon color |  `rgb(), rgba(), #hex`  | ✕ | underlayColor for press event |
-|    reverseColor    | string |  white |  `rgb(), rgba(), #hex`  | ✕ | specify reverse icon color |
-|    reverse    | boolean |  false |  `true` or `false`  | ✕ | reverses color scheme |
-|    raised    | boolean |  false |  `true` or `false`  | ✕ | adds box shadow to button |
-|    iconStyle    | object (style) |  inherited style |   | ✕ | additional styling to icon |
-|    containerStyle    | object (style) |  inherited style |   | ✕ | add styling to container holding icon |
-|    component    | React Native Component |  View if no onPress method is defined, TouchableHighlight if onPress method is defined |   | ✕ | update React Native Component |
-|    onPress    | function |  none |   | ✕ | onPress method for button |
-|    onLongPress    | function |  none |   | ✕ | onLongPress method for button |
+---
 
+# Reference
+
+### `name`
+
+name of icon (required)
+
+|  Type  | Default |
+| :----: | :-----: |
+| string |  none   |
+
+---
+
+### `type`
+
+type (defaults to material, options are `material-community, zocial, font-awesome, octicon, ionicon, foundation, evilicon, simple-line-icon, feather or entypo`)
+
+|  Type  | Default  |
+| :----: | :------: |
+| string | material |
+
+---
+
+### `size`
+
+size of icon (optional)
+
+|  Type  | Default |
+| :----: | :-----: |
+| number |   26    |
+
+---
+
+### `color`
+
+color of icon (optional)
+
+|  Type  | Default |
+| :----: | :-----: |
+| string |  black  |
+
+---
+
+### `iconStyle`
+
+additional styling to icon (optional)
+
+|      Type      |     Default     |
+| :------------: | :-------------: |
+| object (style) | inherited style |
+
+---
+
+### `component`
+
+update React Native Component (optional)
+
+|          Type          |                                        Default                                        |
+| :--------------------: | :-----------------------------------------------------------------------------------: |
+| React Native component | View if no onPress method is defined, TouchableHighlight if onPress method is defined |
+
+---
+
+### `onPress`
+
+onPress method for button (optional)
+
+|   Type   | Default |
+| :------: | :-----: |
+| function |  none   |
+
+---
+
+### `onLongPress`
+
+onLongPress method for button (optional)
+
+|   Type   | Default |
+| :------: | :-----: |
+| function |  none   |
+
+---
+
+### `underlayColor`
+
+underlayColor for press event
+
+|  Type  |  Default   |
+| :----: | :--------: |
+| string | icon color |
+
+---
+
+### `reverse`
+
+reverses color scheme (optional)
+
+|  Type   | Default |
+| :-----: | :-----: |
+| boolean |  false  |
+
+---
+
+### `raised`
+
+adds box shadow to button (optional)
+
+|  Type   | Default |
+| :-----: | :-----: |
+| boolean |  false  |
+
+---
+
+### `containerStyle`
+
+add styling to container holding icon (optional)
+
+|      Type      |      Default      |
+| :------------: | :---------------: |
+| object (style) | inherited styling |
+
+---
+
+### `reverseColor`
+
+specify reverse icon color (optional)
+
+|  Type  | Default |
+| :----: | :-----: |
+| string |  white  |

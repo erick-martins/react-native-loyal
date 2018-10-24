@@ -1,53 +1,1120 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Text Component should render fontFamily and style 1`] = `
-<Text
-  accessible={true}
-  allowFontScaling={true}
-  ellipsizeMode="tail"
-  style={
-    Array [
-      Object {},
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
+exports[`Text Component should have font size of 12.5, font weight 300 and font family Open Sans when subtitle 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <Text
+    accessible={true}
+    allowFontScaling={true}
+    className="subtitle"
+    ellipsizeMode="tail"
+    style={
       Object {
-        "fontFamily": "comic-sans",
+        "color": "#63717a",
+        "fontFamily": "Open Sans",
+        "fontSize": 12.5,
+        "fontWeight": "300",
+        "letterSpacing": 0.8,
+        "lineHeight": 16.25,
+      }
+    }
+  />,
+  "nodes": Array [
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      className="subtitle"
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#63717a",
+          "fontFamily": "Open Sans",
+          "fontSize": 12.5,
+          "fontWeight": "300",
+          "letterSpacing": 0.8,
+          "lineHeight": 16.25,
+        }
+      }
+    />,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <Text
+      className="subtitle"
+    />,
+    "_forcedUpdate": false,
+    "_instance": Text {
+      "context": Object {},
+      "props": Object {
+        "className": "subtitle",
       },
+      "refs": Object {},
+      "state": Object {
+        "theme": Object {
+          "color": "#63717a",
+          "fontFamily": "Open Sans",
+          "fontSize": 12.5,
+          "fontWeight": "300",
+          "letterSpacing": 0.8,
+          "lineHeight": 16.25,
+        },
+      },
+      "unregister": [Function],
+      "updater": Updater {
+        "_callbacks": Array [],
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": Object {
+      "theme": Object {
+        "color": "#63717a",
+        "fontFamily": "Open Sans",
+        "fontSize": 12.5,
+        "fontWeight": "300",
+        "letterSpacing": 0.8,
+        "lineHeight": 16.25,
+      },
+    },
+    "_rendered": <Text
+      accessible={true}
+      allowFontScaling={true}
+      className="subtitle"
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#63717a",
+          "fontFamily": "Open Sans",
+          "fontSize": 12.5,
+          "fontWeight": "300",
+          "letterSpacing": 0.8,
+          "lineHeight": 16.25,
+        }
+      }
+    />,
+    "_rendering": false,
+    "_updater": Updater {
+      "_callbacks": Array [],
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Text
+    className="subtitle"
+  />,
+}
+`;
+
+exports[`Text Component should have font size of 16.25, font weight 300 and font family Open Sans when body 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <Text
+    accessible={true}
+    allowFontScaling={true}
+    className="body"
+    ellipsizeMode="tail"
+    style={
       Object {
-        "color": "red",
+        "color": "#63717a",
+        "fontFamily": "Open Sans",
+        "fontSize": 16.25,
+        "fontWeight": "300",
+        "letterSpacing": 1.04,
+        "lineHeight": 20,
+      }
+    }
+  />,
+  "nodes": Array [
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      className="body"
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#63717a",
+          "fontFamily": "Open Sans",
+          "fontSize": 16.25,
+          "fontWeight": "300",
+          "letterSpacing": 1.04,
+          "lineHeight": 20,
+        }
+      }
+    />,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <Text
+      className="body"
+    />,
+    "_forcedUpdate": false,
+    "_instance": Text {
+      "context": Object {},
+      "props": Object {
+        "className": "body",
       },
-    ]
-  }
->
-  Children Text
-</Text>
+      "refs": Object {},
+      "state": Object {
+        "theme": Object {
+          "color": "#63717a",
+          "fontFamily": "Open Sans",
+          "fontSize": 16.25,
+          "fontWeight": "300",
+          "letterSpacing": 1.04,
+          "lineHeight": 20,
+        },
+      },
+      "unregister": [Function],
+      "updater": Updater {
+        "_callbacks": Array [],
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": Object {
+      "theme": Object {
+        "color": "#63717a",
+        "fontFamily": "Open Sans",
+        "fontSize": 16.25,
+        "fontWeight": "300",
+        "letterSpacing": 1.04,
+        "lineHeight": 20,
+      },
+    },
+    "_rendered": <Text
+      accessible={true}
+      allowFontScaling={true}
+      className="body"
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#63717a",
+          "fontFamily": "Open Sans",
+          "fontSize": 16.25,
+          "fontWeight": "300",
+          "letterSpacing": 1.04,
+          "lineHeight": 20,
+        }
+      }
+    />,
+    "_rendering": false,
+    "_updater": Updater {
+      "_callbacks": Array [],
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Text
+    className="body"
+  />,
+}
+`;
+
+exports[`Text Component should have font size of 16.25, font weight 900 and font family Open Sans when body bold 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <Text
+    accessible={true}
+    allowFontScaling={true}
+    className="body bold"
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#63717a",
+        "fontFamily": "Open Sans",
+        "fontSize": 16.25,
+        "fontWeight": "900",
+        "letterSpacing": 1.04,
+        "lineHeight": 20,
+      }
+    }
+  />,
+  "nodes": Array [
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      className="body bold"
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#63717a",
+          "fontFamily": "Open Sans",
+          "fontSize": 16.25,
+          "fontWeight": "900",
+          "letterSpacing": 1.04,
+          "lineHeight": 20,
+        }
+      }
+    />,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <Text
+      className="body bold"
+    />,
+    "_forcedUpdate": false,
+    "_instance": Text {
+      "context": Object {},
+      "props": Object {
+        "className": "body bold",
+      },
+      "refs": Object {},
+      "state": Object {
+        "theme": Object {
+          "color": "#63717a",
+          "fontFamily": "Open Sans",
+          "fontSize": 16.25,
+          "fontWeight": "900",
+          "letterSpacing": 1.04,
+          "lineHeight": 20,
+        },
+      },
+      "unregister": [Function],
+      "updater": Updater {
+        "_callbacks": Array [],
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": Object {
+      "theme": Object {
+        "color": "#63717a",
+        "fontFamily": "Open Sans",
+        "fontSize": 16.25,
+        "fontWeight": "900",
+        "letterSpacing": 1.04,
+        "lineHeight": 20,
+      },
+    },
+    "_rendered": <Text
+      accessible={true}
+      allowFontScaling={true}
+      className="body bold"
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#63717a",
+          "fontFamily": "Open Sans",
+          "fontSize": 16.25,
+          "fontWeight": "900",
+          "letterSpacing": 1.04,
+          "lineHeight": 20,
+        }
+      }
+    />,
+    "_rendering": false,
+    "_updater": Updater {
+      "_callbacks": Array [],
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Text
+    className="body bold"
+  />,
+}
+`;
+
+exports[`Text Component should have font size of 18.75, font weight 300 and font family Open Sans when altBody 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <Text
+    accessible={true}
+    allowFontScaling={true}
+    className="altBody"
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#63717a",
+        "fontFamily": "Open Sans",
+        "fontSize": 18.75,
+        "fontWeight": "300",
+        "letterSpacing": 1.2,
+        "lineHeight": 22.5,
+      }
+    }
+  />,
+  "nodes": Array [
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      className="altBody"
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#63717a",
+          "fontFamily": "Open Sans",
+          "fontSize": 18.75,
+          "fontWeight": "300",
+          "letterSpacing": 1.2,
+          "lineHeight": 22.5,
+        }
+      }
+    />,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <Text
+      className="altBody"
+    />,
+    "_forcedUpdate": false,
+    "_instance": Text {
+      "context": Object {},
+      "props": Object {
+        "className": "altBody",
+      },
+      "refs": Object {},
+      "state": Object {
+        "theme": Object {
+          "color": "#63717a",
+          "fontFamily": "Open Sans",
+          "fontSize": 18.75,
+          "fontWeight": "300",
+          "letterSpacing": 1.2,
+          "lineHeight": 22.5,
+        },
+      },
+      "unregister": [Function],
+      "updater": Updater {
+        "_callbacks": Array [],
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": Object {
+      "theme": Object {
+        "color": "#63717a",
+        "fontFamily": "Open Sans",
+        "fontSize": 18.75,
+        "fontWeight": "300",
+        "letterSpacing": 1.2,
+        "lineHeight": 22.5,
+      },
+    },
+    "_rendered": <Text
+      accessible={true}
+      allowFontScaling={true}
+      className="altBody"
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#63717a",
+          "fontFamily": "Open Sans",
+          "fontSize": 18.75,
+          "fontWeight": "300",
+          "letterSpacing": 1.2,
+          "lineHeight": 22.5,
+        }
+      }
+    />,
+    "_rendering": false,
+    "_updater": Updater {
+      "_callbacks": Array [],
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Text
+    className="altBody"
+  />,
+}
+`;
+
+exports[`Text Component should have font size of 25, font weight 300 and font family Open Sans when largeBody 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <Text
+    accessible={true}
+    allowFontScaling={true}
+    className="largeBody"
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#63717a",
+        "fontFamily": "Open Sans",
+        "fontSize": 25,
+        "fontWeight": "300",
+        "letterSpacing": 1.6,
+        "lineHeight": 31.25,
+      }
+    }
+  />,
+  "nodes": Array [
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      className="largeBody"
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#63717a",
+          "fontFamily": "Open Sans",
+          "fontSize": 25,
+          "fontWeight": "300",
+          "letterSpacing": 1.6,
+          "lineHeight": 31.25,
+        }
+      }
+    />,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <Text
+      className="largeBody"
+    />,
+    "_forcedUpdate": false,
+    "_instance": Text {
+      "context": Object {},
+      "props": Object {
+        "className": "largeBody",
+      },
+      "refs": Object {},
+      "state": Object {
+        "theme": Object {
+          "color": "#63717a",
+          "fontFamily": "Open Sans",
+          "fontSize": 25,
+          "fontWeight": "300",
+          "letterSpacing": 1.6,
+          "lineHeight": 31.25,
+        },
+      },
+      "unregister": [Function],
+      "updater": Updater {
+        "_callbacks": Array [],
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": Object {
+      "theme": Object {
+        "color": "#63717a",
+        "fontFamily": "Open Sans",
+        "fontSize": 25,
+        "fontWeight": "300",
+        "letterSpacing": 1.6,
+        "lineHeight": 31.25,
+      },
+    },
+    "_rendered": <Text
+      accessible={true}
+      allowFontScaling={true}
+      className="largeBody"
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#63717a",
+          "fontFamily": "Open Sans",
+          "fontSize": 25,
+          "fontWeight": "300",
+          "letterSpacing": 1.6,
+          "lineHeight": 31.25,
+        }
+      }
+    />,
+    "_rendering": false,
+    "_updater": Updater {
+      "_callbacks": Array [],
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Text
+    className="largeBody"
+  />,
+}
+`;
+
+exports[`Text Component should have font size of 25, font weight 900 and font family Circular when title3 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <Text
+    accessible={true}
+    allowFontScaling={true}
+    className="title3"
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#63b2db",
+        "fontFamily": "Circular",
+        "fontSize": 25,
+        "fontWeight": "900",
+        "lineHeight": 27.5,
+      }
+    }
+  />,
+  "nodes": Array [
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      className="title3"
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#63b2db",
+          "fontFamily": "Circular",
+          "fontSize": 25,
+          "fontWeight": "900",
+          "lineHeight": 27.5,
+        }
+      }
+    />,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <Text
+      className="title3"
+    />,
+    "_forcedUpdate": false,
+    "_instance": Text {
+      "context": Object {},
+      "props": Object {
+        "className": "title3",
+      },
+      "refs": Object {},
+      "state": Object {
+        "theme": Object {
+          "color": "#63b2db",
+          "fontFamily": "Circular",
+          "fontSize": 25,
+          "fontWeight": "900",
+          "lineHeight": 27.5,
+        },
+      },
+      "unregister": [Function],
+      "updater": Updater {
+        "_callbacks": Array [],
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": Object {
+      "theme": Object {
+        "color": "#63b2db",
+        "fontFamily": "Circular",
+        "fontSize": 25,
+        "fontWeight": "900",
+        "lineHeight": 27.5,
+      },
+    },
+    "_rendered": <Text
+      accessible={true}
+      allowFontScaling={true}
+      className="title3"
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#63b2db",
+          "fontFamily": "Circular",
+          "fontSize": 25,
+          "fontWeight": "900",
+          "lineHeight": 27.5,
+        }
+      }
+    />,
+    "_rendering": false,
+    "_updater": Updater {
+      "_callbacks": Array [],
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Text
+    className="title3"
+  />,
+}
+`;
+
+exports[`Text Component should have font size of 37.5, font weight 100 and font family Circular when title2 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <Text
+    accessible={true}
+    allowFontScaling={true}
+    className="title2"
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#63b2db",
+        "fontFamily": "Circular",
+        "fontSize": 37.5,
+        "fontWeight": "100",
+        "lineHeight": 42.5,
+      }
+    }
+  />,
+  "nodes": Array [
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      className="title2"
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#63b2db",
+          "fontFamily": "Circular",
+          "fontSize": 37.5,
+          "fontWeight": "100",
+          "lineHeight": 42.5,
+        }
+      }
+    />,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <Text
+      className="title2"
+    />,
+    "_forcedUpdate": false,
+    "_instance": Text {
+      "context": Object {},
+      "props": Object {
+        "className": "title2",
+      },
+      "refs": Object {},
+      "state": Object {
+        "theme": Object {
+          "color": "#63b2db",
+          "fontFamily": "Circular",
+          "fontSize": 37.5,
+          "fontWeight": "100",
+          "lineHeight": 42.5,
+        },
+      },
+      "unregister": [Function],
+      "updater": Updater {
+        "_callbacks": Array [],
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": Object {
+      "theme": Object {
+        "color": "#63b2db",
+        "fontFamily": "Circular",
+        "fontSize": 37.5,
+        "fontWeight": "100",
+        "lineHeight": 42.5,
+      },
+    },
+    "_rendered": <Text
+      accessible={true}
+      allowFontScaling={true}
+      className="title2"
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#63b2db",
+          "fontFamily": "Circular",
+          "fontSize": 37.5,
+          "fontWeight": "100",
+          "lineHeight": 42.5,
+        }
+      }
+    />,
+    "_rendering": false,
+    "_updater": Updater {
+      "_callbacks": Array [],
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Text
+    className="title2"
+  />,
+}
+`;
+
+exports[`Text Component should have font size of 37.5, font weight 900 and font family Circular when Title 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <Text
+    accessible={true}
+    allowFontScaling={true}
+    className="title"
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#63b2db",
+        "fontFamily": "Circular",
+        "fontSize": 37.5,
+        "fontWeight": "900",
+        "lineHeight": 47.5,
+      }
+    }
+  />,
+  "nodes": Array [
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      className="title"
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#63b2db",
+          "fontFamily": "Circular",
+          "fontSize": 37.5,
+          "fontWeight": "900",
+          "lineHeight": 47.5,
+        }
+      }
+    />,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <Text
+      className="title"
+    />,
+    "_forcedUpdate": false,
+    "_instance": Text {
+      "context": Object {},
+      "props": Object {
+        "className": "title",
+      },
+      "refs": Object {},
+      "state": Object {
+        "theme": Object {
+          "color": "#63b2db",
+          "fontFamily": "Circular",
+          "fontSize": 37.5,
+          "fontWeight": "900",
+          "lineHeight": 47.5,
+        },
+      },
+      "unregister": [Function],
+      "updater": Updater {
+        "_callbacks": Array [],
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": Object {
+      "theme": Object {
+        "color": "#63b2db",
+        "fontFamily": "Circular",
+        "fontSize": 37.5,
+        "fontWeight": "900",
+        "lineHeight": 47.5,
+      },
+    },
+    "_rendered": <Text
+      accessible={true}
+      allowFontScaling={true}
+      className="title"
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#63b2db",
+          "fontFamily": "Circular",
+          "fontSize": 37.5,
+          "fontWeight": "900",
+          "lineHeight": 47.5,
+        }
+      }
+    />,
+    "_rendering": false,
+    "_updater": Updater {
+      "_callbacks": Array [],
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Text
+    className="title"
+  />,
+}
+`;
+
+exports[`Text Component should have font size of 50, font weight 900 and font family Circular when Headline 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <Text
+    accessible={true}
+    allowFontScaling={true}
+    className="headline"
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#63b2db",
+        "fontFamily": "Circular",
+        "fontSize": 50,
+        "fontWeight": "900",
+        "lineHeight": 63.75,
+      }
+    }
+  />,
+  "nodes": Array [
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      className="headline"
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#63b2db",
+          "fontFamily": "Circular",
+          "fontSize": 50,
+          "fontWeight": "900",
+          "lineHeight": 63.75,
+        }
+      }
+    />,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <Text
+      className="headline"
+    />,
+    "_forcedUpdate": false,
+    "_instance": Text {
+      "context": Object {},
+      "props": Object {
+        "className": "headline",
+      },
+      "refs": Object {},
+      "state": Object {
+        "theme": Object {
+          "color": "#63b2db",
+          "fontFamily": "Circular",
+          "fontSize": 50,
+          "fontWeight": "900",
+          "lineHeight": 63.75,
+        },
+      },
+      "unregister": [Function],
+      "updater": Updater {
+        "_callbacks": Array [],
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": Object {
+      "theme": Object {
+        "color": "#63b2db",
+        "fontFamily": "Circular",
+        "fontSize": 50,
+        "fontWeight": "900",
+        "lineHeight": 63.75,
+      },
+    },
+    "_rendered": <Text
+      accessible={true}
+      allowFontScaling={true}
+      className="headline"
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#63b2db",
+          "fontFamily": "Circular",
+          "fontSize": 50,
+          "fontWeight": "900",
+          "lineHeight": 63.75,
+        }
+      }
+    />,
+    "_rendering": false,
+    "_updater": Updater {
+      "_callbacks": Array [],
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Text
+    className="headline"
+  />,
+}
 `;
 
 exports[`Text Component should render without issues 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <Text
+    accessible={true}
+    allowFontScaling={true}
+    className="light body"
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#63717a",
+        "fontFamily": "Open Sans",
+        "fontSize": 16.25,
+        "fontWeight": "300",
+        "letterSpacing": 1.04,
+        "lineHeight": 20,
+      }
+    }
+  />,
+  "nodes": Array [
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      className="light body"
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#63717a",
+          "fontFamily": "Open Sans",
+          "fontSize": 16.25,
+          "fontWeight": "300",
+          "letterSpacing": 1.04,
+          "lineHeight": 20,
+        }
+      }
+    />,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <Text
+      className="light body"
+    />,
+    "_forcedUpdate": false,
+    "_instance": Text {
+      "context": Object {},
+      "props": Object {
+        "className": "light body",
+      },
+      "refs": Object {},
+      "state": Object {
+        "theme": Object {
+          "color": "#63717a",
+          "fontFamily": "Open Sans",
+          "fontSize": 16.25,
+          "fontWeight": "300",
+          "letterSpacing": 1.04,
+          "lineHeight": 20,
+        },
+      },
+      "unregister": [Function],
+      "updater": Updater {
+        "_callbacks": Array [],
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": Object {
+      "theme": Object {
+        "color": "#63717a",
+        "fontFamily": "Open Sans",
+        "fontSize": 16.25,
+        "fontWeight": "300",
+        "letterSpacing": 1.04,
+        "lineHeight": 20,
+      },
+    },
+    "_rendered": <Text
+      accessible={true}
+      allowFontScaling={true}
+      className="light body"
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#63717a",
+          "fontFamily": "Open Sans",
+          "fontSize": 16.25,
+          "fontWeight": "300",
+          "letterSpacing": 1.04,
+          "lineHeight": 20,
+        }
+      }
+    />,
+    "_rendering": false,
+    "_updater": Updater {
+      "_callbacks": Array [],
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Text
+    className="light body"
+  />,
+}
+`;
+
+exports[`Text Component should render without issues 2`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
+  className="light body"
   ellipsizeMode="tail"
   style={
-    Array [
-      Object {},
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-    ]
+    Object {
+      "color": "#63717a",
+      "fontFamily": "Open Sans",
+      "fontSize": 16.25,
+      "fontWeight": "300",
+      "letterSpacing": 1.04,
+      "lineHeight": 20,
+    }
   }
 />
 `;

@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
+import ThemeComponent from '../theme/ThemeComponent';
 
 import {
   StyleSheet,
@@ -17,15 +18,27 @@ import nodeType from '../helpers/nodeType';
 import ViewPropTypes from '../config/ViewPropTypes';
 
 const log = () => {
-  /* eslint-disable no-console */
-  console.log('Please attach a method to this component');
+  /* eslint-disable no-//console */
+  //console.log('Please attach a method to this component');
 };
+function mergeStyles(...styles) {
+  var sum = [];
+  for (var i = 0; i < styles.length; i++) {
+    var style1 = styles[i];
+    if (Array.isArray(style1)) {
+      for (var j = 0; j < style1.length; j++) sum.push(style1[j]);
+    } else {
+      sum.push(style1);
+    }
+  }
+  return sum;
+}
 
-class Button extends Component {
+class Button extends ThemeComponent {
   componentDidMount() {
     const { linearGradientProps, ViewComponent } = this.props;
     if (linearGradientProps && !global.Expo && !ViewComponent) {
-      /* eslint-disable no-console */
+      /* eslint-disable no-//console */
       console.error(
         `You need to pass a ViewComponent to use linearGradientProps !\nExample: ViewComponent={require('react-native-linear-gradient')}`
       );
@@ -39,6 +52,7 @@ class Button extends Component {
       onPress,
       buttonStyle,
       clear,
+      className,
       loading,
       loadingStyle,
       loadingProps,
@@ -59,9 +73,16 @@ class Button extends Component {
       ...attributes
     } = this.props;
 
+    const { theme } = this.state;
+
+    if (className.indexOf('justIcon') >= 0 && !disabled) {
+      //console.log(theme.buttonStyle);
+    }
+
     if (
       Platform.OS === 'android' &&
-      (buttonStyle.borderRadius && !attributes.background)
+      ((buttonStyle.borderRadius || (theme && theme.containerStyle)) &&
+        !attributes.background)
     ) {
       if (Platform.VERSION >= 21) {
         attributes.background = TouchableNativeFeedback.Ripple(
@@ -73,7 +94,13 @@ class Button extends Component {
       }
     }
     return (
-      <View style={[containerStyle, raised && styles.raised]}>
+      <View
+        style={[
+          containerStyle,
+          (theme && theme.containerStyle) || {},
+          raised && styles.raised,
+        ]}
+      >
         <TouchableComponent
           {...attributes}
           onPress={onPress}
@@ -85,9 +112,11 @@ class Button extends Component {
             {...linearGradientProps}
             style={[
               styles.button,
+              (theme && theme.buttonStyle) || {},
               buttonStyle,
               disabled && styles.disabled,
               disabled && disabledStyle,
+              (disabled && (theme && theme.disabledStyle)) || {},
               clear && { backgroundColor: 'transparent', elevation: 0 },
               linearGradientProps && { backgroundColor: 'transparent' },
             ]}
@@ -95,7 +124,11 @@ class Button extends Component {
             {loading && (
               <ActivityIndicator
                 animating={true}
-                style={[styles.loading, loadingStyle]}
+                style={[
+                  styles.loading,
+                  (theme && theme.loadingStyle) || {},
+                  loadingStyle,
+                ]}
                 color={loadingProps.color}
                 size={loadingProps.size}
                 {...loadingProps}
@@ -105,27 +138,46 @@ class Button extends Component {
               icon &&
               !iconRight &&
               renderNode(Icon, icon, {
-                containerStyle: [styles.iconContainer, iconContainerStyle],
+                iconProps: { ...((theme && theme.iconProps) || {}) },
+                iconDisabledProps:
+                  (disabled && (theme && theme.iconDisabledProps)) || {} || {},
+                containerStyle: [
+                  styles.iconContainer,
+                  (theme && theme.iconContainerStyle) || {},
+                  iconContainerStyle,
+                ],
               })}
             {!loading &&
               !!title && (
                 <Text
                   style={[
                     styles.title,
+                    (theme && theme.titleStyle) || {},
                     titleStyle,
                     disabled && styles.disabledTitle,
                     disabled && disabledTitleStyle,
+                    (disabled && (theme && theme.disabledTitleStyle)) || {},
                   ]}
                   {...titleProps}
                 >
-                  {title}
+                  {(icon && title == 'Welcome to\nReact Native Elements'
+                    ? ''
+                    : title
+                  ).toUpperCase()}
                 </Text>
               )}
             {!loading &&
               icon &&
               iconRight &&
               renderNode(Icon, icon, {
-                containerStyle: [styles.iconContainer, iconContainerStyle],
+                iconProps: { ...((theme && theme.iconProps) || {}) },
+                iconDisabledProps:
+                  (disabled && (theme && theme.iconDisabledProps)) || {} || {},
+                containerStyle: [
+                  styles.iconContainer,
+                  (theme && theme.iconContainerStyle) || {},
+                  iconContainerStyle,
+                ],
               })}
           </ViewComponent>
         </TouchableComponent>
@@ -135,6 +187,7 @@ class Button extends Component {
 }
 
 Button.propTypes = {
+  className: PropTypes.string,
   title: PropTypes.string,
   titleStyle: Text.propTypes.style,
   titleProps: PropTypes.object,
@@ -158,7 +211,8 @@ Button.propTypes = {
 };
 
 Button.defaultProps = {
-  title: 'Welcome to\nReact Native Loyal',
+  className: '',
+  title: 'Welcome to\nReact Native Elements',
   iconRight: false,
   TouchableComponent:
     Platform.OS === 'ios' ? TouchableOpacity : TouchableNativeFeedback,
@@ -168,8 +222,9 @@ Button.defaultProps = {
     color: 'white',
     size: 'small',
   },
+
   buttonStyle: {
-    borderRadius: 3,
+    borderRadius: 5,
   },
   disabled: false,
   raised: false,
@@ -180,12 +235,12 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    borderRadius: 3,
+    borderRadius: 5,
     backgroundColor: colors.primary,
     ...Platform.select({
       android: {
         elevation: 4,
-        borderRadius: 2,
+        borderRadius: 5,
       },
     }),
   },
@@ -195,7 +250,7 @@ const styles = StyleSheet.create({
     ...Platform.select({
       android: {
         //no elevation
-        borderRadius: 2,
+        borderRadius: 5,
       },
     }),
   },
@@ -219,6 +274,8 @@ const styles = StyleSheet.create({
   },
   iconContainer: {
     marginHorizontal: 5,
+    marginRight: 80,
+    paddingRight: 80,
   },
   raised: {
     ...Platform.select({

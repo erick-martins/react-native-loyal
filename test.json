@@ -1,0 +1,782 @@
+[
+    {
+      "id": 155,
+      "name": "icon_add_30px",
+      "alias": "AddAlt"
+    },
+    {
+      "id": 154,
+      "name": "icon_airplane_30px",
+      "alias": "AirplaneAlt"
+    },
+    {
+      "id": 153,
+      "name": "icon_alarm_30px",
+      "alias": "AlarmAlt"
+    },
+    {
+      "id": 152,
+      "name": "icon_analyse_30px",
+      "alias": "AnalyseAlt"
+    },
+    {
+      "id": 151,
+      "name": "icon_armichair_30px",
+      "alias": "ArmichairAlt"
+    },
+    {
+      "id": 150,
+      "name": "icon_arrow_down_30px",
+      "alias": "ArrowDownAlt"
+    },
+    {
+      "id": 149,
+      "name": "icon_arrow_left_30px",
+      "alias": "ArrowLeftAlt"
+    },
+    {
+      "id": 148,
+      "name": "icon_arrow_right_30px",
+      "alias": "ArrowRightAlt"
+    },
+    {
+      "id": 147,
+      "name": "icon_attach_30px",
+      "alias": "AttachAlt"
+    },
+    {
+      "id": 146,
+      "name": "icon_baby_30px",
+      "alias": "BabyAlt"
+    },
+    {
+      "id": 145,
+      "name": "icon_bag_30px",
+      "alias": "BagAlt"
+    },
+    {
+      "id": 144,
+      "name": "icon_ball_30px",
+      "alias": "BallAlt"
+    },
+    {
+      "id": 143,
+      "name": "icon_ball_soccer_30px",
+      "alias": "BallSoccerAlt"
+    },
+    {
+      "id": 142,
+      "name": "icon_ballon_30px",
+      "alias": "BallonAlt"
+    },
+    {
+      "id": 141,
+      "name": "icon_barcodes_30px",
+      "alias": "BarcodesAlt"
+    },
+    {
+      "id": 140,
+      "name": "icon_basket_30px",
+      "alias": "BasketAlt"
+    },
+    {
+      "id": 139,
+      "name": "icon_beauty_30px",
+      "alias": "BeautyAlt"
+    },
+    {
+      "id": 138,
+      "name": "icon_bike_30px",
+      "alias": "BikeAlt"
+    },
+    {
+      "id": 137,
+      "name": "icon_bluetooth_30px",
+      "alias": "BluetoothAlt"
+    },
+    {
+      "id": 136,
+      "name": "icon_book_30px",
+      "alias": "BookAlt"
+    },
+    {
+      "id": 135,
+      "name": "icon_bookmark_30px",
+      "alias": "BookmarkAlt"
+    },
+    {
+      "id": 134,
+      "name": "icon_browser_30px",
+      "alias": "BrowserAlt"
+    },
+    {
+      "id": 133,
+      "name": "icon_bus_30px",
+      "alias": "BusAlt"
+    },
+    {
+      "id": 132,
+      "name": "icon_calendar_30px",
+      "alias": "CalendarAlt"
+    },
+    {
+      "id": 131,
+      "name": "icon_call_30px",
+      "alias": "CallAlt"
+    },
+    {
+      "id": 130,
+      "name": "icon_camera_30px",
+      "alias": "CameraAlt"
+    },
+    {
+      "id": 129,
+      "name": "icon_car_30px",
+      "alias": "CarAlt"
+    },
+    {
+      "id": 128,
+      "name": "icon_card_30px",
+      "alias": "CardAlt"
+    },
+    {
+      "id": 127,
+      "name": "icon_cart_30px",
+      "alias": "CartAlt"
+    },
+    {
+      "id": 126,
+      "name": "icon_cash_30px",
+      "alias": "CashAlt"
+    },
+    {
+      "id": 125,
+      "name": "icon_chart_30px",
+      "alias": "ChartAlt"
+    },
+    {
+      "id": 124,
+      "name": "icon_chat_30px",
+      "alias": "ChatAlt"
+    },
+    {
+      "id": 123,
+      "name": "icon_check",
+      "alias": "Check"
+    },
+    {
+      "id": 122,
+      "name": "icon_check_30px",
+      "alias": "CheckAlt"
+    },
+    {
+      "id": 121,
+      "name": "icon_clock_30px",
+      "alias": "ClockAlt"
+    },
+    {
+      "id": 120,
+      "name": "icon_close",
+      "alias": "Close"
+    },
+    {
+      "id": 119,
+      "name": "icon_close_30px",
+      "alias": "CloseAlt"
+    },
+    {
+      "id": 118,
+      "name": "icon_cloud_30px",
+      "alias": "CloudAlt"
+    },
+    {
+      "id": 117,
+      "name": "icon_cloud_computing_30px",
+      "alias": "CloudComputingAlt"
+    },
+    {
+      "id": 116,
+      "name": "icon_cloud_down_30px",
+      "alias": "CloudDownAlt"
+    },
+    {
+      "id": 115,
+      "name": "icon_cloud_up_30px",
+      "alias": "CloudUpAlt"
+    },
+    {
+      "id": 114,
+      "name": "icon_colls",
+      "alias": "Colls"
+    },
+    {
+      "id": 113,
+      "name": "icon_computer_30px",
+      "alias": "ComputerAlt"
+    },
+    {
+      "id": 112,
+      "name": "icon_conversation_30px",
+      "alias": "ConversationAlt"
+    },
+    {
+      "id": 111,
+      "name": "icon_convert_30px",
+      "alias": "ConvertAlt"
+    },
+    {
+      "id": 110,
+      "name": "icon_copy_30px",
+      "alias": "CopyAlt"
+    },
+    {
+      "id": 109,
+      "name": "icon_cruise_30px",
+      "alias": "CruiseAlt"
+    },
+    {
+      "id": 108,
+      "name": "icon_dev_30px",
+      "alias": "DevAlt"
+    },
+    {
+      "id": 107,
+      "name": "icon_dislike_30px",
+      "alias": "DislikeAlt"
+    },
+    {
+      "id": 106,
+      "name": "icon_down",
+      "alias": "Down"
+    },
+    {
+      "id": 105,
+      "name": "icon_download_30px",
+      "alias": "DownloadAlt"
+    },
+    {
+      "id": 104,
+      "name": "icon_drink_30px",
+      "alias": "DrinkAlt"
+    },
+    {
+      "id": 103,
+      "name": "icon_dryer_30px",
+      "alias": "DryerAlt"
+    },
+    {
+      "id": 102,
+      "name": "icon_dvd_30px",
+      "alias": "DvdAlt"
+    },
+    {
+      "id": 101,
+      "name": "icon_edit_30px",
+      "alias": "EditAlt"
+    },
+    {
+      "id": 100,
+      "name": "icon_equal_30px",
+      "alias": "EqualAlt"
+    },
+    {
+      "id": 99,
+      "name": "icon_file_30px",
+      "alias": "FileAlt"
+    },
+    {
+      "id": 98,
+      "name": "icon_filter_30px",
+      "alias": "FilterAlt"
+    },
+    {
+      "id": 97,
+      "name": "icon_folder_30px",
+      "alias": "FolderAlt"
+    },
+    {
+      "id": 96,
+      "name": "icon_folder_open_30px",
+      "alias": "FolderOpenAlt"
+    },
+    {
+      "id": 95,
+      "name": "icon_fuel_30px",
+      "alias": "FuelAlt"
+    },
+    {
+      "id": 94,
+      "name": "icon_funnel_30px",
+      "alias": "FunnelAlt"
+    },
+    {
+      "id": 93,
+      "name": "icon_game_30px",
+      "alias": "GameAlt"
+    },
+    {
+      "id": 92,
+      "name": "icon_gift_30px",
+      "alias": "GiftAlt"
+    },
+    {
+      "id": 91,
+      "name": "icon_headphone_30px",
+      "alias": "HeadphoneAlt"
+    },
+    {
+      "id": 90,
+      "name": "icon_helicopter_30px",
+      "alias": "HelicopterAlt"
+    },
+    {
+      "id": 89,
+      "name": "icon_help_30px",
+      "alias": "HelpAlt"
+    },
+    {
+      "id": 88,
+      "name": "icon_hierarch_30px",
+      "alias": "HierarchAlt"
+    },
+    {
+      "id": 87,
+      "name": "icon_home_30px",
+      "alias": "HomeAlt"
+    },
+    {
+      "id": 86,
+      "name": "icon_host_30px",
+      "alias": "HostAlt"
+    },
+    {
+      "id": 85,
+      "name": "icon_hotel_30px",
+      "alias": "HotelAlt"
+    },
+    {
+      "id": 84,
+      "name": "icon_idea_30px",
+      "alias": "IdeaAlt"
+    },
+    {
+      "id": 83,
+      "name": "icon_joke_30px",
+      "alias": "JokeAlt"
+    },
+    {
+      "id": 82,
+      "name": "icon_label_30px",
+      "alias": "LabelAlt"
+    },
+    {
+      "id": 81,
+      "name": "icon_laptop_30px",
+      "alias": "LaptopAlt"
+    },
+    {
+      "id": 80,
+      "name": "icon_left",
+      "alias": "Left"
+    },
+    {
+      "id": 79,
+      "name": "icon_like_30px",
+      "alias": "LikeAlt"
+    },
+    {
+      "id": 78,
+      "name": "icon_link_30px",
+      "alias": "LinkAlt"
+    },
+    {
+      "id": 77,
+      "name": "icon_list",
+      "alias": "List"
+    },
+    {
+      "id": 76,
+      "name": "icon_list_30px",
+      "alias": "ListAlt"
+    },
+    {
+      "id": 75,
+      "name": "icon_location_30px",
+      "alias": "LocationAlt"
+    },
+    {
+      "id": 74,
+      "name": "icon_lock_30px",
+      "alias": "LockAlt"
+    },
+    {
+      "id": 73,
+      "name": "icon_login_30px",
+      "alias": "LoginAlt"
+    },
+    {
+      "id": 72,
+      "name": "icon_logout_30px",
+      "alias": "LogoutAlt"
+    },
+    {
+      "id": 71,
+      "name": "icon_map_30px",
+      "alias": "MapAlt"
+    },
+    {
+      "id": 70,
+      "name": "icon_mechanic_30px",
+      "alias": "MechanicAlt"
+    },
+    {
+      "id": 69,
+      "name": "icon_medal_30px",
+      "alias": "MedalAlt"
+    },
+    {
+      "id": 68,
+      "name": "icon_megaphone_30px",
+      "alias": "MegaphoneAlt"
+    },
+    {
+      "id": 67,
+      "name": "icon_menu",
+      "alias": "Menu"
+    },
+    {
+      "id": 66,
+      "name": "icon_message_30px",
+      "alias": "MessageAlt"
+    },
+    {
+      "id": 65,
+      "name": "icon_message_read_30px",
+      "alias": "MessageReadAlt"
+    },
+    {
+      "id": 64,
+      "name": "icon_microwave_30px",
+      "alias": "MicrowaveAlt"
+    },
+    {
+      "id": 63,
+      "name": "icon_more",
+      "alias": "More"
+    },
+    {
+      "id": 62,
+      "name": "icon_motorcycle_30px",
+      "alias": "MotorcycleAlt"
+    },
+    {
+      "id": 61,
+      "name": "icon_movie_30px",
+      "alias": "MovieAlt"
+    },
+    {
+      "id": 60,
+      "name": "icon_music_30px",
+      "alias": "MusicAlt"
+    },
+    {
+      "id": 59,
+      "name": "icon_newsletter_30px",
+      "alias": "NewsletterAlt"
+    },
+    {
+      "id": 58,
+      "name": "icon_notification_30px",
+      "alias": "NotificationAlt"
+    },
+    {
+      "id": 57,
+      "name": "icon_notification_active_30px",
+      "alias": "NotificationActiveAlt"
+    },
+    {
+      "id": 56,
+      "name": "icon_options",
+      "alias": "Options"
+    },
+    {
+      "id": 55,
+      "name": "icon_options_vertical",
+      "alias": "OptionsVertical"
+    },
+    {
+      "id": 54,
+      "name": "icon_package_30px",
+      "alias": "PackageAlt"
+    },
+    {
+      "id": 53,
+      "name": "icon_pan_30px",
+      "alias": "PanAlt"
+    },
+    {
+      "id": 52,
+      "name": "icon_pay_30px",
+      "alias": "PayAlt"
+    },
+    {
+      "id": 51,
+      "name": "icon_pen_30px",
+      "alias": "PenAlt"
+    },
+    {
+      "id": 50,
+      "name": "icon_phone_30px",
+      "alias": "PhoneAlt"
+    },
+    {
+      "id": 49,
+      "name": "icon_picture_30px",
+      "alias": "PictureAlt"
+    },
+    {
+      "id": 48,
+      "name": "icon_pin_30px",
+      "alias": "PinAlt"
+    },
+    {
+      "id": 47,
+      "name": "icon_placeholder_30px",
+      "alias": "PlaceholderAlt"
+    },
+    {
+      "id": 46,
+      "name": "icon_play_30px",
+      "alias": "PlayAlt"
+    },
+    {
+      "id": 45,
+      "name": "icon_presentation_30px",
+      "alias": "PresentationAlt"
+    },
+    {
+      "id": 44,
+      "name": "icon_press_30px",
+      "alias": "PressAlt"
+    },
+    {
+      "id": 43,
+      "name": "icon_profile_30px",
+      "alias": "ProfileAlt"
+    },
+    {
+      "id": 42,
+      "name": "icon_question_30px",
+      "alias": "QuestionAlt"
+    },
+    {
+      "id": 41,
+      "name": "icon_rating",
+      "alias": "Rating"
+    },
+    {
+      "id": 40,
+      "name": "icon_read_30px",
+      "alias": "ReadAlt"
+    },
+    {
+      "id": 39,
+      "name": "icon_reload_30px",
+      "alias": "ReloadAlt"
+    },
+    {
+      "id": 38,
+      "name": "icon_remove",
+      "alias": "Remove"
+    },
+    {
+      "id": 37,
+      "name": "icon_remove_30px",
+      "alias": "RemoveAlt"
+    },
+    {
+      "id": 36,
+      "name": "icon_return_30px",
+      "alias": "ReturnAlt"
+    },
+    {
+      "id": 35,
+      "name": "icon_right",
+      "alias": "Right"
+    },
+    {
+      "id": 34,
+      "name": "icon_rocket_30px",
+      "alias": "RocketAlt"
+    },
+    {
+      "id": 33,
+      "name": "icon_ruler_30px",
+      "alias": "RulerAlt"
+    },
+    {
+      "id": 32,
+      "name": "icon_sad_30px",
+      "alias": "SadAlt"
+    },
+    {
+      "id": 31,
+      "name": "icon_save_30px",
+      "alias": "SaveAlt"
+    },
+    {
+      "id": 30,
+      "name": "icon_search",
+      "alias": "Search"
+    },
+    {
+      "id": 29,
+      "name": "icon_send_30px",
+      "alias": "SendAlt"
+    },
+    {
+      "id": 28,
+      "name": "icon_settings_30px",
+      "alias": "SettingsAlt"
+    },
+    {
+      "id": 27,
+      "name": "icon_share_30px",
+      "alias": "ShareAlt"
+    },
+    {
+      "id": 26,
+      "name": "icon_smile_30px",
+      "alias": "SmileAlt"
+    },
+    {
+      "id": 25,
+      "name": "icon_speek_30px",
+      "alias": "SpeekAlt"
+    },
+    {
+      "id": 24,
+      "name": "icon_star_30px",
+      "alias": "StarAlt"
+    },
+    {
+      "id": 23,
+      "name": "icon_stats_30px",
+      "alias": "StatsAlt"
+    },
+    {
+      "id": 22,
+      "name": "icon_sun_30px",
+      "alias": "SunAlt"
+    },
+    {
+      "id": 21,
+      "name": "icon_tag_30px",
+      "alias": "TagAlt"
+    },
+    {
+      "id": 20,
+      "name": "icon_target_30px",
+      "alias": "TargetAlt"
+    },
+    {
+      "id": 19,
+      "name": "icon_train_30px",
+      "alias": "TrainAlt"
+    },
+    {
+      "id": 18,
+      "name": "icon_translate_30px",
+      "alias": "TranslateAlt"
+    },
+    {
+      "id": 17,
+      "name": "icon_trash_30px",
+      "alias": "TrashAlt"
+    },
+    {
+      "id": 16,
+      "name": "icon_truck_30px",
+      "alias": "TruckAlt"
+    },
+    {
+      "id": 15,
+      "name": "icon_tshirt_30px",
+      "alias": "TshirtAlt"
+    },
+    {
+      "id": 14,
+      "name": "icon_ufo_30px",
+      "alias": "UfoAlt"
+    },
+    {
+      "id": 13,
+      "name": "icon_umbrella_30px",
+      "alias": "UmbrellaAlt"
+    },
+    {
+      "id": 12,
+      "name": "icon_unlock_30px",
+      "alias": "UnlockAlt"
+    },
+    {
+      "id": 11,
+      "name": "icon_up",
+      "alias": "Up"
+    },
+    {
+      "id": 10,
+      "name": "icon_up_30px",
+      "alias": "UpAlt"
+    },
+    {
+      "id": 9,
+      "name": "icon_updown",
+      "alias": "Updown"
+    },
+    {
+      "id": 8,
+      "name": "icon_upload_30px",
+      "alias": "UploadAlt"
+    },
+    {
+      "id": 7,
+      "name": "icon_view_30px",
+      "alias": "ViewAlt"
+    },
+    {
+      "id": 6,
+      "name": "icon_voltage_-1",
+      "alias": "Voltage_-1"
+    },
+    {
+      "id": 5,
+      "name": "icon_voltage_30px",
+      "alias": "VoltageAlt"
+    },
+    {
+      "id": 4,
+      "name": "icon_voucher_30px",
+      "alias": "VoucherAlt"
+    },
+    {
+      "id": 3,
+      "name": "icon_voucher_air_30px",
+      "alias": "VoucherAirAlt"
+    },
+    {
+      "id": 2,
+      "name": "icon_warning_30px",
+      "alias": "WarningAlt"
+    },
+    {
+      "id": 1,
+      "name": "icon_wifi_30px",
+      "alias": "WifiAlt"
+    },
+    {
+      "id": 0,
+      "name": "icon_wishlist_30px",
+      "alias": "WishlistAlt"
+    }
+  ]

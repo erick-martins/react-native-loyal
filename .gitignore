@@ -1,11 +1,3 @@
-node_modules
-.DS_Store
-*.log
-site
-coverage
-jsconfig.json
-.vscode/
-.idea/
-website/build
-.idea/
-package-lock.json
+node_modules/**/*
+.expo/*
+npm-debug.*

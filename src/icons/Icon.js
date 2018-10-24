@@ -7,8 +7,18 @@ import {
   StyleSheet,
   Text as NativeText,
 } from 'react-native';
-import getIconType from '../helpers/getIconType';
+import getIconType, { registerCustomIconType } from '../helpers/getIconType';
 import ViewPropTypes from '../config/ViewPropTypes';
+import { createIconSetFromIcoMoon } from 'react-native-vector-icons';
+import icoMoonConfig from '../assets/fonts/WebPremiosIcon/selection.json';
+
+const WebPremiosIcon = createIconSetFromIcoMoon(
+  icoMoonConfig,
+  'icomoon',
+  '../assets/fonts/WebPremiosIcon/icomoon.ttf'
+);
+
+registerCustomIconType('WebPremios', WebPremiosIcon);
 
 const Icon = props => {
   const {
@@ -27,7 +37,7 @@ const Icon = props => {
     ...attributes
   } = props;
 
-  let Icon = getIconType(type || 'material');
+  let Icon = getIconType(type || 'WebPremios');
   return (
     <View style={containerStyle && containerStyle}>
       <Component

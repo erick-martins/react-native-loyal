@@ -91,7 +91,7 @@ class Input extends Component {
                 leftIconContainerStyle,
               ]}
             >
-              {renderNode(Icon, leftIcon)}
+              {leftIcon}
             </View>
           )}
           <TextInput
@@ -102,7 +102,7 @@ class Input extends Component {
           />
           {rightIcon && (
             <View style={[styles.iconContainer, rightIconContainerStyle]}>
-              {renderNode(Icon, rightIcon)}
+              {rightIcon}
             </View>
           )}
         </Animated.View>

@@ -19,5 +19,12 @@
   "rules": {
     "quotes": ["error", "single", { "allowTemplateLiterals": true }],
     "semi": ["error", "always"]
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "modules": true
+    }
   }
 }

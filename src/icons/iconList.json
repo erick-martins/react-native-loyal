@@ -1,0 +1,782 @@
+[
+    {
+      "id": 155,
+      "name": "icon_add_30px",
+      "alias": "Add"
+    },
+    {
+      "id": 154,
+      "name": "icon_airplane_30px",
+      "alias": "Airplane"
+    },
+    {
+      "id": 153,
+      "name": "icon_alarm_30px",
+      "alias": "Alarm"
+    },
+    {
+      "id": 152,
+      "name": "icon_analyse_30px",
+      "alias": "Analyse"
+    },
+    {
+      "id": 151,
+      "name": "icon_armichair_30px",
+      "alias": "Armichair"
+    },
+    {
+      "id": 150,
+      "name": "icon_arrow_down_30px",
+      "alias": "ArrowDown"
+    },
+    {
+      "id": 149,
+      "name": "icon_arrow_left_30px",
+      "alias": "ArrowLeft"
+    },
+    {
+      "id": 148,
+      "name": "icon_arrow_right_30px",
+      "alias": "ArrowRight"
+    },
+    {
+      "id": 147,
+      "name": "icon_attach_30px",
+      "alias": "Attach"
+    },
+    {
+      "id": 146,
+      "name": "icon_baby_30px",
+      "alias": "Baby"
+    },
+    {
+      "id": 145,
+      "name": "icon_bag_30px",
+      "alias": "Bag"
+    },
+    {
+      "id": 144,
+      "name": "icon_ball_30px",
+      "alias": "Ball"
+    },
+    {
+      "id": 143,
+      "name": "icon_ball_soccer_30px",
+      "alias": "BallSoccer"
+    },
+    {
+      "id": 142,
+      "name": "icon_ballon_30px",
+      "alias": "Ballon"
+    },
+    {
+      "id": 141,
+      "name": "icon_barcodes_30px",
+      "alias": "Barcodes"
+    },
+    {
+      "id": 140,
+      "name": "icon_basket_30px",
+      "alias": "Basket"
+    },
+    {
+      "id": 139,
+      "name": "icon_beauty_30px",
+      "alias": "Beauty"
+    },
+    {
+      "id": 138,
+      "name": "icon_bike_30px",
+      "alias": "Bike"
+    },
+    {
+      "id": 137,
+      "name": "icon_bluetooth_30px",
+      "alias": "Bluetooth"
+    },
+    {
+      "id": 136,
+      "name": "icon_book_30px",
+      "alias": "Book"
+    },
+    {
+      "id": 135,
+      "name": "icon_bookmark_30px",
+      "alias": "Bookmark"
+    },
+    {
+      "id": 134,
+      "name": "icon_browser_30px",
+      "alias": "Browser"
+    },
+    {
+      "id": 133,
+      "name": "icon_bus_30px",
+      "alias": "Bus"
+    },
+    {
+      "id": 132,
+      "name": "icon_calendar_30px",
+      "alias": "Calendar"
+    },
+    {
+      "id": 131,
+      "name": "icon_call_30px",
+      "alias": "Call"
+    },
+    {
+      "id": 130,
+      "name": "icon_camera_30px",
+      "alias": "Camera"
+    },
+    {
+      "id": 129,
+      "name": "icon_car_30px",
+      "alias": "Car"
+    },
+    {
+      "id": 128,
+      "name": "icon_card_30px",
+      "alias": "Card"
+    },
+    {
+      "id": 127,
+      "name": "icon_cart_30px",
+      "alias": "Cart"
+    },
+    {
+      "id": 126,
+      "name": "icon_cash_30px",
+      "alias": "Cash"
+    },
+    {
+      "id": 125,
+      "name": "icon_chart_30px",
+      "alias": "Chart"
+    },
+    {
+      "id": 124,
+      "name": "icon_chat_30px",
+      "alias": "Chat"
+    },
+    {
+      "id": 123,
+      "name": "icon_check",
+      "alias": "Check"
+    },
+    {
+      "id": 122,
+      "name": "icon_check_30px",
+      "alias": "CheckAlt"
+    },
+    {
+      "id": 121,
+      "name": "icon_clock_30px",
+      "alias": "Clock"
+    },
+    {
+      "id": 120,
+      "name": "icon_close",
+      "alias": "Close"
+    },
+    {
+      "id": 119,
+      "name": "icon_close_30px",
+      "alias": "CloseAlt"
+    },
+    {
+      "id": 118,
+      "name": "icon_cloud_30px",
+      "alias": "Cloud"
+    },
+    {
+      "id": 117,
+      "name": "icon_cloud_computing_30px",
+      "alias": "CloudComputing"
+    },
+    {
+      "id": 116,
+      "name": "icon_cloud_down_30px",
+      "alias": "CloudDown"
+    },
+    {
+      "id": 115,
+      "name": "icon_cloud_up_30px",
+      "alias": "CloudUp"
+    },
+    {
+      "id": 114,
+      "name": "icon_colls",
+      "alias": "Colls"
+    },
+    {
+      "id": 113,
+      "name": "icon_computer_30px",
+      "alias": "Computer"
+    },
+    {
+      "id": 112,
+      "name": "icon_conversation_30px",
+      "alias": "Conversation"
+    },
+    {
+      "id": 111,
+      "name": "icon_convert_30px",
+      "alias": "Convert"
+    },
+    {
+      "id": 110,
+      "name": "icon_copy_30px",
+      "alias": "Copy"
+    },
+    {
+      "id": 109,
+      "name": "icon_cruise_30px",
+      "alias": "Cruise"
+    },
+    {
+      "id": 108,
+      "name": "icon_dev_30px",
+      "alias": "Dev"
+    },
+    {
+      "id": 107,
+      "name": "icon_dislike_30px",
+      "alias": "Dislike"
+    },
+    {
+      "id": 106,
+      "name": "icon_down",
+      "alias": "Down"
+    },
+    {
+      "id": 105,
+      "name": "icon_download_30px",
+      "alias": "Download"
+    },
+    {
+      "id": 104,
+      "name": "icon_drink_30px",
+      "alias": "Drink"
+    },
+    {
+      "id": 103,
+      "name": "icon_dryer_30px",
+      "alias": "Dryer"
+    },
+    {
+      "id": 102,
+      "name": "icon_dvd_30px",
+      "alias": "Dvd"
+    },
+    {
+      "id": 101,
+      "name": "icon_edit_30px",
+      "alias": "Edit"
+    },
+    {
+      "id": 100,
+      "name": "icon_equal_30px",
+      "alias": "Equal"
+    },
+    {
+      "id": 99,
+      "name": "icon_file_30px",
+      "alias": "File"
+    },
+    {
+      "id": 98,
+      "name": "icon_filter_30px",
+      "alias": "Filter"
+    },
+    {
+      "id": 97,
+      "name": "icon_folder_30px",
+      "alias": "Folder"
+    },
+    {
+      "id": 96,
+      "name": "icon_folder_open_30px",
+      "alias": "FolderOpen"
+    },
+    {
+      "id": 95,
+      "name": "icon_fuel_30px",
+      "alias": "Fuel"
+    },
+    {
+      "id": 94,
+      "name": "icon_funnel_30px",
+      "alias": "Funnel"
+    },
+    {
+      "id": 93,
+      "name": "icon_game_30px",
+      "alias": "Game"
+    },
+    {
+      "id": 92,
+      "name": "icon_gift_30px",
+      "alias": "Gift"
+    },
+    {
+      "id": 91,
+      "name": "icon_headphone_30px",
+      "alias": "Headphone"
+    },
+    {
+      "id": 90,
+      "name": "icon_helicopter_30px",
+      "alias": "Helicopter"
+    },
+    {
+      "id": 89,
+      "name": "icon_help_30px",
+      "alias": "Help"
+    },
+    {
+      "id": 88,
+      "name": "icon_hierarch_30px",
+      "alias": "Hierarch"
+    },
+    {
+      "id": 87,
+      "name": "icon_home_30px",
+      "alias": "Home"
+    },
+    {
+      "id": 86,
+      "name": "icon_host_30px",
+      "alias": "Host"
+    },
+    {
+      "id": 85,
+      "name": "icon_hotel_30px",
+      "alias": "Hotel"
+    },
+    {
+      "id": 84,
+      "name": "icon_idea_30px",
+      "alias": "Idea"
+    },
+    {
+      "id": 83,
+      "name": "icon_joke_30px",
+      "alias": "Joke"
+    },
+    {
+      "id": 82,
+      "name": "icon_label_30px",
+      "alias": "Label"
+    },
+    {
+      "id": 81,
+      "name": "icon_laptop_30px",
+      "alias": "Laptop"
+    },
+    {
+      "id": 80,
+      "name": "icon_left",
+      "alias": "Left"
+    },
+    {
+      "id": 79,
+      "name": "icon_like_30px",
+      "alias": "Like"
+    },
+    {
+      "id": 78,
+      "name": "icon_link_30px",
+      "alias": "Link"
+    },
+    {
+      "id": 77,
+      "name": "icon_list",
+      "alias": "List"
+    },
+    {
+      "id": 76,
+      "name": "icon_list_30px",
+      "alias": "ListAlt"
+    },
+    {
+      "id": 75,
+      "name": "icon_location_30px",
+      "alias": "Location"
+    },
+    {
+      "id": 74,
+      "name": "icon_lock_30px",
+      "alias": "Lock"
+    },
+    {
+      "id": 73,
+      "name": "icon_login_30px",
+      "alias": "Login"
+    },
+    {
+      "id": 72,
+      "name": "icon_logout_30px",
+      "alias": "Logout"
+    },
+    {
+      "id": 71,
+      "name": "icon_map_30px",
+      "alias": "Map"
+    },
+    {
+      "id": 70,
+      "name": "icon_mechanic_30px",
+      "alias": "Mechanic"
+    },
+    {
+      "id": 69,
+      "name": "icon_medal_30px",
+      "alias": "Medal"
+    },
+    {
+      "id": 68,
+      "name": "icon_megaphone_30px",
+      "alias": "Megaphone"
+    },
+    {
+      "id": 67,
+      "name": "icon_menu",
+      "alias": "Menu"
+    },
+    {
+      "id": 66,
+      "name": "icon_message_30px",
+      "alias": "Message"
+    },
+    {
+      "id": 65,
+      "name": "icon_message_read_30px",
+      "alias": "MessageRead"
+    },
+    {
+      "id": 64,
+      "name": "icon_microwave_30px",
+      "alias": "Microwave"
+    },
+    {
+      "id": 63,
+      "name": "icon_more",
+      "alias": "More"
+    },
+    {
+      "id": 62,
+      "name": "icon_motorcycle_30px",
+      "alias": "Motorcycle"
+    },
+    {
+      "id": 61,
+      "name": "icon_movie_30px",
+      "alias": "Movie"
+    },
+    {
+      "id": 60,
+      "name": "icon_music_30px",
+      "alias": "Music"
+    },
+    {
+      "id": 59,
+      "name": "icon_newsletter_30px",
+      "alias": "Newsletter"
+    },
+    {
+      "id": 58,
+      "name": "icon_notification_30px",
+      "alias": "Notification"
+    },
+    {
+      "id": 57,
+      "name": "icon_notification_active_30px",
+      "alias": "NotificationActive"
+    },
+    {
+      "id": 56,
+      "name": "icon_options",
+      "alias": "Options"
+    },
+    {
+      "id": 55,
+      "name": "icon_options_vertical",
+      "alias": "OptionsVertical"
+    },
+    {
+      "id": 54,
+      "name": "icon_package_30px",
+      "alias": "Package"
+    },
+    {
+      "id": 53,
+      "name": "icon_pan_30px",
+      "alias": "Pan"
+    },
+    {
+      "id": 52,
+      "name": "icon_pay_30px",
+      "alias": "Pay"
+    },
+    {
+      "id": 51,
+      "name": "icon_pen_30px",
+      "alias": "Pen"
+    },
+    {
+      "id": 50,
+      "name": "icon_phone_30px",
+      "alias": "Phone"
+    },
+    {
+      "id": 49,
+      "name": "icon_picture_30px",
+      "alias": "Picture"
+    },
+    {
+      "id": 48,
+      "name": "icon_pin_30px",
+      "alias": "Pin"
+    },
+    {
+      "id": 47,
+      "name": "icon_placeholder_30px",
+      "alias": "Placeholder"
+    },
+    {
+      "id": 46,
+      "name": "icon_play_30px",
+      "alias": "Play"
+    },
+    {
+      "id": 45,
+      "name": "icon_presentation_30px",
+      "alias": "Presentation"
+    },
+    {
+      "id": 44,
+      "name": "icon_press_30px",
+      "alias": "Press"
+    },
+    {
+      "id": 43,
+      "name": "icon_profile_30px",
+      "alias": "Profile"
+    },
+    {
+      "id": 42,
+      "name": "icon_question_30px",
+      "alias": "Question"
+    },
+    {
+      "id": 41,
+      "name": "icon_rating",
+      "alias": "Rating"
+    },
+    {
+      "id": 40,
+      "name": "icon_read_30px",
+      "alias": "Read"
+    },
+    {
+      "id": 39,
+      "name": "icon_reload_30px",
+      "alias": "Reload"
+    },
+    {
+      "id": 38,
+      "name": "icon_remove",
+      "alias": "Remove"
+    },
+    {
+      "id": 37,
+      "name": "icon_remove_30px",
+      "alias": "RemoveAlt"
+    },
+    {
+      "id": 36,
+      "name": "icon_return_30px",
+      "alias": "Return"
+    },
+    {
+      "id": 35,
+      "name": "icon_right",
+      "alias": "Right"
+    },
+    {
+      "id": 34,
+      "name": "icon_rocket_30px",
+      "alias": "Rocket"
+    },
+    {
+      "id": 33,
+      "name": "icon_ruler_30px",
+      "alias": "Ruler"
+    },
+    {
+      "id": 32,
+      "name": "icon_sad_30px",
+      "alias": "Sad"
+    },
+    {
+      "id": 31,
+      "name": "icon_save_30px",
+      "alias": "Save"
+    },
+    {
+      "id": 30,
+      "name": "icon_search",
+      "alias": "Search"
+    },
+    {
+      "id": 29,
+      "name": "icon_send_30px",
+      "alias": "Send"
+    },
+    {
+      "id": 28,
+      "name": "icon_settings_30px",
+      "alias": "Settings"
+    },
+    {
+      "id": 27,
+      "name": "icon_share_30px",
+      "alias": "Share"
+    },
+    {
+      "id": 26,
+      "name": "icon_smile_30px",
+      "alias": "Smile"
+    },
+    {
+      "id": 25,
+      "name": "icon_speek_30px",
+      "alias": "Speek"
+    },
+    {
+      "id": 24,
+      "name": "icon_star_30px",
+      "alias": "Star"
+    },
+    {
+      "id": 23,
+      "name": "icon_stats_30px",
+      "alias": "Stats"
+    },
+    {
+      "id": 22,
+      "name": "icon_sun_30px",
+      "alias": "Sun"
+    },
+    {
+      "id": 21,
+      "name": "icon_tag_30px",
+      "alias": "Tag"
+    },
+    {
+      "id": 20,
+      "name": "icon_target_30px",
+      "alias": "Target"
+    },
+    {
+      "id": 19,
+      "name": "icon_train_30px",
+      "alias": "Train"
+    },
+    {
+      "id": 18,
+      "name": "icon_translate_30px",
+      "alias": "Translate"
+    },
+    {
+      "id": 17,
+      "name": "icon_trash_30px",
+      "alias": "Trash"
+    },
+    {
+      "id": 16,
+      "name": "icon_truck_30px",
+      "alias": "Truck"
+    },
+    {
+      "id": 15,
+      "name": "icon_tshirt_30px",
+      "alias": "Tshirt"
+    },
+    {
+      "id": 14,
+      "name": "icon_ufo_30px",
+      "alias": "Ufo"
+    },
+    {
+      "id": 13,
+      "name": "icon_umbrella_30px",
+      "alias": "Umbrella"
+    },
+    {
+      "id": 12,
+      "name": "icon_unlock_30px",
+      "alias": "Unlock"
+    },
+    {
+      "id": 11,
+      "name": "icon_up",
+      "alias": "Up"
+    },
+    {
+      "id": 10,
+      "name": "icon_up_30px",
+      "alias": "UpAlt"
+    },
+    {
+      "id": 9,
+      "name": "icon_updown",
+      "alias": "Updown"
+    },
+    {
+      "id": 8,
+      "name": "icon_upload_30px",
+      "alias": "Upload"
+    },
+    {
+      "id": 7,
+      "name": "icon_view_30px",
+      "alias": "View"
+    },
+    {
+      "id": 6,
+      "name": "icon_voltage_-1",
+      "alias": "Voltage"
+    },
+    {
+      "id": 5,
+      "name": "icon_voltage_30px",
+      "alias": "VoltageAlt"
+    },
+    {
+      "id": 4,
+      "name": "icon_voucher_30px",
+      "alias": "Voucher"
+    },
+    {
+      "id": 3,
+      "name": "icon_voucher_air_30px",
+      "alias": "VoucherAir"
+    },
+    {
+      "id": 2,
+      "name": "icon_warning_30px",
+      "alias": "Warning"
+    },
+    {
+      "id": 1,
+      "name": "icon_wifi_30px",
+      "alias": "Wifi"
+    },
+    {
+      "id": 0,
+      "name": "icon_wishlist_30px",
+      "alias": "Wishlist"
+    }
+  ]

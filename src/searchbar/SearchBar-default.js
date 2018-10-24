@@ -8,19 +8,24 @@ import nodeType from '../helpers/nodeType';
 
 import Input from '../input/Input';
 import Icon from '../icons/Icon';
+import Icons from '../icons/Icons';
 
-const defaultSearchIcon = {
-  type: 'material-community',
+const defaultSearchIcon = Icons.Search({
   size: 18,
-  name: 'magnify',
+  color: colors.grey3,
+});
+const defaultClearIcon = (
+  <Icon type="material-community" name="close" color={colors.grey3} />
+);
+/*
+const defaultSearchIconProps = {
+  size: 18,
   color: colors.grey3,
 };
-const defaultClearIcon = {
-  type: 'material-community',
+const defaultClearIconProps = {
   size: 18,
-  name: 'close',
   color: colors.grey3,
-};
+};*/
 
 class SearchBar extends Component {
   focus = () => {
@@ -56,8 +61,21 @@ class SearchBar extends Component {
       isEmpty: true,
     };
   }
+  renderIcon(icon, color) {
+    ////console.log("Icon", icon, color);
+    if (!React.isValidElement(icon)) {
+      return null;
+    }
+
+    return (
+      <View>
+        <IconHelper {...{ color }}>{icon}</IconHelper>
+      </View>
+    );
+  }
 
   render() {
+    const { theme } = this.state;
     const {
       lightTheme,
       round,
@@ -67,6 +85,7 @@ class SearchBar extends Component {
       leftIconContainerStyle,
       rightIconContainerStyle,
       inputContainerStyle,
+      iconContainerStyle,
       inputStyle,
       showLoading,
       loadingProps,
@@ -98,7 +117,9 @@ class SearchBar extends Component {
             round && styles.round,
           ]}
           containerStyle={styles.inputContainer}
-          leftIcon={renderNode(Icon, searchIcon, defaultSearchIcon)}
+          leftIcon={renderNode(Icon, searchIcon || defaultSearchIcon, {
+            iconProps: { ...((theme && theme.iconProps) || {}) },
+          })}
           leftIconContainerStyle={[
             styles.leftIconContainerStyle,
             leftIconContainerStyle,
@@ -111,7 +132,10 @@ class SearchBar extends Component {
                   {...otherLoadingProps}
                 />
               )}
-              {!isEmpty && renderNode(Icon, clearIcon, defaultClearIcon)}
+              {!isEmpty &&
+                renderNode(Icon, clearIcon || defaultClearIcon, {
+                  iconProps: { ...((theme && theme.clearIconProps) || {}) },
+                })}
             </View>
           }
           rightIconContainerStyle={[
@@ -130,6 +154,7 @@ SearchBar.propTypes = {
   loadingProps: PropTypes.object,
   showLoading: PropTypes.bool,
   containerStyle: ViewPropTypes.style,
+  iconContainerStyle: ViewPropTypes.style,
   leftIconContainerStyle: ViewPropTypes.style,
   rightIconContainerStyle: ViewPropTypes.style,
   inputContainerStyle: ViewPropTypes.style,
@@ -193,6 +218,11 @@ const styles = StyleSheet.create({
   },
   round: {
     borderRadius: 15,
+  },
+  iconContainer: {
+    marginHorizontal: 5,
+    marginRight: 80,
+    paddingRight: 80,
   },
 });
 

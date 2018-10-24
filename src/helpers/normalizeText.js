@@ -19,11 +19,11 @@ const deviceWidth = Dimensions.get('window').width;
 // -- Testing Only --
 // const fontScale = PixelRatio.getFontScale();
 // const layoutSize = PixelRatio.getPixelSizeForLayoutSize(14);
-// console.log('normalizeText getPR ->', pixelRatio);
-// console.log('normalizeText getFS ->', fontScale);
-// console.log('normalizeText getDH ->', deviceHeight);
-// console.log('normalizeText getDW ->', deviceWidth);
-// console.log('normalizeText getPSFLS ->', layoutSize);
+// //console.log('normalizeText getPR ->', pixelRatio);
+// //console.log('normalizeText getFS ->', fontScale);
+// //console.log('normalizeText getDH ->', deviceHeight);
+// //console.log('normalizeText getDW ->', deviceWidth);
+// //console.log('normalizeText getPSFLS ->', layoutSize);
 
 const normalize = size => {
   if (pixelRatio >= 2 && pixelRatio < 3) {
@@ -75,9 +75,9 @@ const normalize = size => {
     }
     // catch larger phablet devices
     return size * 1.4;
-  } else
-    // if older device ie pixelRatio !== 2 || 3 || 3.5
-    return size;
+  }
+  // if older device ie pixelRatio !== 2 || 3 || 3.5
+  else return size;
 };
 
 module.exports = normalize; // eslint-disable-line no-undef
